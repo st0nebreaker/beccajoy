@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-hydejack"
+  spec.name          = "beccajoy"
   spec.version       = "9.2.1"
-  spec.authors       = ["Florian Klampfer"]
-  spec.email         = ["mail@qwtel.com"]
+  spec.authors       = ["Becca Steinbrecher"]
+  spec.email         = ["beccasteinbrecher@gmail.com"]
 
-  spec.summary       = %q{"A boutique Jekyll theme for hackers, nerds, and academics"}
+  spec.summary       = %q{"Becca Steinbrecher's Portfolio"}
   spec.homepage      = "https://hydejack.com/"
   spec.license       = "GPL-3.0"
   spec.metadata = {
