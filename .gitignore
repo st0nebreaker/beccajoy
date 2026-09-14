@@ -5,7 +5,6 @@ vendor
 .jekyll-metadata
 .jekyll-cache
 .ruby-lsp
-*.gem
 
 #<removed/js>
 #<removed/css>
