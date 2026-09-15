@@ -17,7 +17,7 @@ author:
     UX / Design Engineer and product professional at the intersection of 
     tech and mission-driven work.
 
-accent_image: /assets/img/sidebar-art.jpg
+accent_image: /assets/img/sidebar-art.png
 accent_color: rgb(180, 89, 56)
 theme_color: rgb(42, 36, 32)
 
@@ -29,8 +29,10 @@ font_code:    "'JetBrains Mono', 'Fira Mono', monospace"
 
 # Navigation
 menu:
-  - title: About & Résumé
+  - title: About
     url:   /
+  - title: Résumé
+    url:   /resume/
   - title: Work
     url:   /work/
 
