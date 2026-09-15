@@ -2,6 +2,9 @@ lang:                  en
 title:                 Becca Joy
 copyright:             © 2026. All rights reserved.
 
+plugins:
+  - jekyll-include-cache
+
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 theme_color:           rgb(25,55,71)
