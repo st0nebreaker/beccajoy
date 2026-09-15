@@ -17,15 +17,11 @@ author:
     UX / Design Engineer and product professional at the intersection of 
     tech and mission-driven work.
 
-# Hydejack theme settings
-theme: jekyll-theme-hydejack
-
-accent_color: rgb(180, 89, 56)   # terracotta
-accent_image:
+  accent_image: /assets/img/sidebar-bg.jpg
+  accent_color: rgb(180, 89, 56)
+  theme_color: rgb(42, 36, 32)
   background: rgb(42, 36, 32)    # deep warm charcoal — sidebar bg
   overlay:    false
-
-theme_color: rgb(42, 36, 32)
 
 # Fonts — Google Fonts
 google_fonts: DM+Serif+Display:400,400i|Inter:300,400,500,600
@@ -95,15 +91,7 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-redirect-from
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-include-cache
 
 exclude:
   - .sass-cache/
