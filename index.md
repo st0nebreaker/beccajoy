@@ -20,7 +20,7 @@ cover: false
       need both craft and pragmatism.
     </p>
     <div class="intro-cta">
-      <a href="/work/" class="btn btn--primary">See My Work</a>
+      <a href="/work/" class="btn btn--outlin">See My Work</a>
       <a href="/resume/" class="btn btn--outline">View Résumé</a>
     </div>
   </div>
