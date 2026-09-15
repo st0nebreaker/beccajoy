@@ -1,0 +1,66 @@
+---
+layout: page
+---
+
+<style>
+  .work-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--bs-rule);
+  }
+  .work-filter-bar a {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 1.5px solid var(--bs-warm-grey);
+    border-radius: 2rem;
+    color: var(--bs-warm-grey);
+    text-decoration: none;
+    transition: all 0.18s ease;
+  }
+  .work-filter-bar a:hover,
+  .work-filter-bar a.active {
+    background: var(--bs-terracotta);
+    border-color: var(--bs-terracotta);
+    color: #fff;
+  }
+</style>
+
+{{ content }}
+
+<nav class="work-filter-bar" aria-label="Filter work by type">
+  <a href="/work/" class="{% unless page.url contains '?filter=' %}active{% endunless %}">All</a>
+  <a href="/work/?filter=design">Design + UX</a>
+  <a href="/work/?filter=product">Product</a>
+  <a href="/work/?filter=development">Development</a>
+  <a href="/work/?filter=writing">Writing</a>
+</nav>
+
+<div class="work-grid" id="work-grid">
+  {% assign sorted_work = site.work | sort: "year" | reverse %}
+  {% for item in sorted_work %}
+    {% include work-card.html work=item %}
+  {% endfor %}
+</div>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var filter = params.get('filter');
+    if (!filter) return;
+
+    document.querySelectorAll('.work-filter-bar a').forEach(function (link) {
+      link.classList.toggle('active', link.href.includes('filter=' + filter));
+    });
+    document.querySelectorAll('.work-card').forEach(function (card) {
+      var types = card.dataset.types || '';
+      card.style.display = types.includes(filter) ? '' : 'none';
+    });
+  })();
+</script>

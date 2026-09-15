@@ -1,74 +1,115 @@
-lang:                  en
-title:                 Becca Joy
-copyright:             © 2026. All rights reserved.
+# Site settings
+title: Becca Steinbrecher
+tagline: UX / Design Engineer · Product Professional
+description: >
+  Designer and engineer at the intersection of tech and mission-driven work.
+  6 years building user-facing software, a decade inside nonprofits and conservation orgs.
+url: https://beccajoy.pages.dev
+baseurl: ""
+
+# Author
+author:
+  name: Becca Steinbrecher
+  email: # your email here
+  phone: "(858) 431-6492"
+  picture: /assets/img/becca-portrait.jpg
+  about: |
+    UX / Design Engineer and product professional at the intersection of 
+    tech and mission-driven work.
+
+# Hydejack theme settings
+theme: jekyll-theme-hydejack
+
+accent_color: rgb(180, 89, 56)   # terracotta
+accent_image:
+  background: rgb(42, 36, 32)    # deep warm charcoal — sidebar bg
+  overlay:    false
+
+theme_color: rgb(42, 36, 32)
+
+# Fonts — Google Fonts
+google_fonts: DM+Serif+Display:400,400i|Inter:300,400,500,600
+font:         "'Inter', system-ui, sans-serif"
+font_heading: "'DM Serif Display', Georgia, serif"
+font_code:    "'JetBrains Mono', 'Fira Mono', monospace"
+
+# Navigation
+menu:
+  - title: About & Résumé
+    url:   /
+  - title: Work
+    url:   /work/
+
+# Collections
+collections:
+  work:
+    output: true
+    permalink: /work/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: case-study
+
+# Social links (edit to add yours)
+links:
+  - title: LinkedIn
+    url:   https://www.linkedin.com/in/becca-steinbrecher  # update with real URL
+  - title: GitHub
+    url:   https://github.com/bsteinbrecher               # update with real URL
+  - title: Writing Samples
+    url:   /work/?filter=writing
+
+# Hydejack options
+hydejack:
+  post_addons:   [about, newsletter, related, random]
+  project_addons: [about, newsletter, other]
+  no_mark_external: false
+  no_push_state:    false
+  no_drawer:        false
+  no_navbar:        false
+  no_search:        true
+  no_inline_css:    false
+  no_page_style:    false
+  no_cover_group:   false
+  hide_dates:       true
+  hide_image_in_post: false
+  dark_mode:
+    always: false
+    dynamic: true
+    icon: true
+
+# Pagination
+paginate: 10
+paginate_path: /page-:num/
+
+# Markdown + plugins
+markdown:    kramdown
+highlighter: rouge
+
+kramdown:
+  input:         GFM
+  math_engine:   mathjax
+  syntax_highlighter: rouge
 
 plugins:
-  - jekyll-include-cache
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
-theme_color:           rgb(25,55,71)
-
-google_fonts:          false
-
-hydejack:
-  post_addons:         [about, newsletter]
-  project_addons:      [about, newsletter]
-
-  no_mark_external:    false
-  no_push_state:       false
-  no_drawer:           false
-  no_navbar:           false
-  no_search:           false
-  no_inline_css:       false
-  no_page_style:       false
-  no_break_layout:     true
-  no_toc:              false
-  no_third_column:     false
-  no_large_headings:   false
-  no_structured_data:  false
-  no_theme_color:      false
-  no_breadcrumbs:      false
-
-  use_lsi:             true
-  cookies_banner:      true
-  advertise:           true
-  hide_dates:          false
-  hide_last_modified:  false
-
-  dark_mode:
-    always:            false
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
-    icon:              true
-
-  offline:
-    enabled:           false
-    cache_version:     1
-    precache_assets:
-      - /assets/img/swipe.svg
-
-optional_front_matter:
-  remove_originals:    true
-
-readme_index:
-  remove_originals:    true
-  with_frontmatter:    true
-
-relative_links:
-  collections:         true
-
-titles_from_headings:
-  strip_title:         true
-  collections:         true
-
-compress_html:
-  comments:            ["<!-- ", " -->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
-
-sass:
-  style:               compressed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/

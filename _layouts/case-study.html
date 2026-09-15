@@ -1,0 +1,121 @@
+---
+layout: page
+---
+
+<article class="case-study">
+
+  <header class="case-study-header">
+    <div class="case-study-meta-row">
+      {% if page.type %}
+        <span class="work-type-badge work-type-badge--{{ page.type }}">{{ page.type | capitalize }}</span>
+      {% endif %}
+      {% if page.year %}
+        <span class="case-study-year">{{ page.year }}</span>
+      {% endif %}
+    </div>
+
+    <h1 class="case-study-title">{{ page.title }}</h1>
+
+    {% if page.summary %}
+      <p class="case-study-summary">{{ page.summary }}</p>
+    {% endif %}
+
+    <dl class="case-study-details">
+      {% if page.role %}
+        <div>
+          <dt>Role</dt>
+          <dd>{{ page.role }}</dd>
+        </div>
+      {% endif %}
+      {% if page.organization %}
+        <div>
+          <dt>Organization</dt>
+          <dd>{{ page.organization }}</dd>
+        </div>
+      {% endif %}
+      {% if page.tools %}
+        <div>
+          <dt>Tools</dt>
+          <dd>{{ page.tools | join: ", " }}</dd>
+        </div>
+      {% endif %}
+      {% if page.link %}
+        <div>
+          <dt>Link</dt>
+          <dd><a href="{{ page.link }}" target="_blank" rel="noopener">View Sample &rarr;</a></dd>
+        </div>
+      {% endif %}
+    </dl>
+  </header>
+
+  {% if page.thumbnail %}
+    <div class="case-study-hero">
+      <img
+        src="{{ page.thumbnail | relative_url }}"
+        alt="{{ page.title }} — hero image"
+        class="case-study-hero-img"
+        loading="lazy"
+      >
+    </div>
+  {% else %}
+    <div class="case-study-hero case-study-hero--empty">
+      <span>Image coming soon</span>
+    </div>
+  {% endif %}
+
+  <div class="case-study-body">
+
+    {% if page.challenge %}
+    <section class="case-study-section">
+      <h2>Challenge</h2>
+      <p>{{ page.challenge }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.process %}
+    <section class="case-study-section">
+      <h2>Process</h2>
+      <p>{{ page.process }}</p>
+    </section>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.outcome %}
+    <section class="case-study-section case-study-section--outcome">
+      <h2>Outcome</h2>
+      <p>{{ page.outcome }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.images %}
+    <section class="case-study-section">
+      <h2>Gallery</h2>
+      <div class="case-study-gallery">
+        {% for img in page.images %}
+          <figure class="case-study-figure">
+            <img
+              src="{{ img.src | relative_url }}"
+              alt="{{ img.alt | default: page.title }}"
+              loading="lazy"
+            >
+            {% if img.caption %}
+              <figcaption>{{ img.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+  </div><!-- /.case-study-body -->
+
+  <footer class="case-study-footer">
+    <a href="/work/" class="btn btn--outline">&larr; All Work</a>
+    {% assign next_item = site.work | where_exp: "item", "item.url != page.url" | first %}
+    {% if next_item %}
+      <a href="{{ next_item.url | relative_url }}" class="btn btn--primary">Next Project &rarr;</a>
+    {% endif %}
+  </footer>
+
+</article>

@@ -1,0 +1,19 @@
+<div class="resume-entry">
+  <div class="resume-entry-header">
+    <div class="resume-entry-title">
+      <strong class="resume-company">{{ include.company }}</strong>
+      <span class="resume-role">{{ include.role }}</span>
+    </div>
+    {% if include.period %}
+      <span class="resume-period">{{ include.period }}</span>
+    {% endif %}
+  </div>
+  {% if include.bullets %}
+    <ul class="resume-bullets">
+      {% assign bullet_list = include.bullets | split: "|" %}
+      {% for bullet in bullet_list %}
+        <li>{{ bullet | strip }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

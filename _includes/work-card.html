@@ -1,0 +1,50 @@
+{% assign w = include.work %}
+<article
+  class="work-card{% if w.featured %} work-card--featured{% endif %}"
+  data-types="{{ w.type }}"
+>
+  <a href="{{ w.url | relative_url }}" class="work-card-link" tabindex="-1" aria-hidden="true">
+    <div class="work-card-thumb">
+      {% if w.thumbnail %}
+        <img
+          src="{{ w.thumbnail | relative_url }}"
+          alt="{{ w.title }}"
+          loading="lazy"
+          class="work-card-img"
+        >
+      {% else %}
+        <div class="work-card-thumb--empty">
+          <span class="work-card-thumb-label">{{ w.type | default: "work" | upcase }}</span>
+        </div>
+      {% endif %}
+    </div>
+  </a>
+
+  <div class="work-card-body">
+    <div class="work-card-meta">
+      {% if w.type %}
+        <span class="work-type-badge work-type-badge--{{ w.type }}">{{ w.type | capitalize }}</span>
+      {% endif %}
+      {% if w.year %}
+        <span class="work-card-year">{{ w.year }}</span>
+      {% endif %}
+    </div>
+
+    <h3 class="work-card-title">
+      <a href="{{ w.url | relative_url }}">{{ w.title }}</a>
+    </h3>
+
+    {% if w.summary %}
+      <p class="work-card-summary">{{ w.summary }}</p>
+    {% endif %}
+
+    <div class="work-card-footer">
+      {% if w.organization %}
+        <span class="work-card-org">{{ w.organization }}</span>
+      {% endif %}
+      <a href="{{ w.url | relative_url }}" class="work-card-cta">
+        View {% if w.type == "writing" %}Sample{% else %}Case Study{% endif %} &rarr;
+      </a>
+    </div>
+  </div>
+</article>
