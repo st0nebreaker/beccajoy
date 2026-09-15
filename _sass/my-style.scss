@@ -55,10 +55,12 @@
 }
 
 // ── Base Typography ─────────────────────────────────────────
-body {
+html,
+body,
+.content {
   font-family: var(--bs-font-body);
-  background: var(--bs-cream);
-  color: var(--bs-charcoal);
+  background: #F2EDE4;
+  color: #2A2420;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -390,6 +392,13 @@ a {
   line-height: 1.6;
 }
 
+.resume-instruction {
+  margin: 0 0 var(--bs-space-lg);
+  color: var(--bs-warm-grey);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .resume-entry {
   padding: var(--bs-space-lg) 0;
   border-bottom: 1px solid var(--bs-parchment);
@@ -405,7 +414,37 @@ a {
   align-items: flex-start;
   gap: var(--bs-space-md);
   flex-wrap: wrap;
-  margin-bottom: var(--bs-space-sm);
+  margin: 0;
+  cursor: pointer;
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--bs-terracotta);
+    outline-offset: 4px;
+  }
+}
+
+.resume-entry-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--bs-space-sm);
+}
+
+.resume-toggle-icon {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid var(--bs-warm-grey);
+  transition: transform 0.18s ease;
+}
+
+.resume-entry[open] .resume-toggle-icon {
+  transform: rotate(180deg);
 }
 
 .resume-entry-title {
@@ -455,6 +494,10 @@ a {
       color: var(--bs-warm-grey);
     }
   }
+}
+
+.resume-entry[open] .resume-bullets {
+  margin-top: var(--bs-space-md);
 }
 
 // ── Skills Grid ─────────────────────────────────────────────
@@ -721,23 +764,6 @@ a {
     &:hover {
       color: var(--bs-ochre);
     }
-  }
-}
-
-// ── Dark mode overrides ──────────────────────────────────────
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bs-cream:     #1E1A17;
-    --bs-parchment: #2A2420;
-    --bs-charcoal:  #EDE8E2;
-    --bs-rule:      #3A322C;
-    --bs-warm-grey: #9A8E84;
-  }
-
-  .work-card,
-  .skill-group,
-  .education-item {
-    background: #2A2420;
   }
 }
 

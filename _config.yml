@@ -17,7 +17,7 @@ author:
     UX / Design Engineer and product professional at the intersection of 
     tech and mission-driven work.
 
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: /assets/img/sidebar-art.jpg
 accent_color: rgb(180, 89, 56)
 theme_color: rgb(42, 36, 32)
 
@@ -72,8 +72,8 @@ hydejack:
   hide_image_in_post: false
   dark_mode:
     always: false
-    dynamic: true
-    icon: true
+    dynamic: false
+    icon: false
 
 # Markdown + plugins
 markdown:    kramdown

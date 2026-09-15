@@ -30,6 +30,7 @@ cover: false
 
 ## Featured Work
 {:.section-heading}
+<p class="resume-instruction">Click any role to expand details.</p>
 
 <div class="featured-work-grid">
 {% assign featured = site.work | where: "featured", true | limit: 3 %}
@@ -47,7 +48,7 @@ cover: false
 ## Experience {#experience}
 {:.section-heading}
 
-<div class="resume-section">
+<div class="resume-section" markdown="1">
 
 ### Software &amp; Product
 {:.resume-category}
@@ -96,7 +97,7 @@ cover: false
 
 </div>
 
-<div class="resume-section">
+<div class="resume-section" markdown="1">
 
 ### Mission-Driven Work
 {:.resume-category}

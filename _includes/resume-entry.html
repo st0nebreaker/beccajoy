@@ -1,13 +1,16 @@
-<div class="resume-entry">
-  <div class="resume-entry-header">
+<details class="resume-entry">
+  <summary class="resume-entry-header">
     <div class="resume-entry-title">
       <strong class="resume-company">{{ include.company }}</strong>
       <span class="resume-role">{{ include.role }}</span>
     </div>
-    {% if include.period %}
-      <span class="resume-period">{{ include.period }}</span>
-    {% endif %}
-  </div>
+
+    <span class="resume-entry-meta">
+      {% if include.period %}<span class="resume-period">{{ include.period }}</span>{% endif %}
+      <span class="resume-toggle-icon" aria-hidden="true"></span>
+    </span>
+  </summary>
+
   {% if include.bullets %}
     <ul class="resume-bullets">
       {% assign bullet_list = include.bullets | split: "|" %}
@@ -16,4 +19,4 @@
       {% endfor %}
     </ul>
   {% endif %}
-</div>
+</details>
