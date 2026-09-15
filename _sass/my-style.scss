@@ -1,0 +1,791 @@
+// ============================================================
+// Becca Steinbrecher — Portfolio Custom Styles
+// Extending Hydejack v9 with a warm editorial aesthetic
+// Palette: terracotta · ochre · slate · sage · warm cream
+// ============================================================
+
+// ── Google Fonts ────────────────────────────────────────────
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap');
+
+// ── Design Tokens ───────────────────────────────────────────
+:root {
+  // Brand palette
+  --bs-cream:       #F2EDE4;
+  --bs-parchment:   #E8E0D4;
+  --bs-terracotta:  #B45838;
+  --bs-ochre:       #C4923B;
+  --bs-sage:        #4A6741;
+  --bs-slate:       #5C7A8C;
+  --bs-mauve:       #8C6B7A;
+  --bs-charcoal:    #2A2420;
+  --bs-warm-grey:   #8A7D74;
+  --bs-rule:        #D6CEC4;
+
+  // Type scale
+  --bs-font-display: 'DM Serif Display', Georgia, serif;
+  --bs-font-body:    'Inter', system-ui, sans-serif;
+
+  // Spacing
+  --bs-space-xs: 0.25rem;
+  --bs-space-sm: 0.5rem;
+  --bs-space-md: 1rem;
+  --bs-space-lg: 1.5rem;
+  --bs-space-xl: 2.5rem;
+  --bs-space-2xl: 4rem;
+
+  // Radius
+  --bs-radius-sm: 4px;
+  --bs-radius-md: 8px;
+  --bs-radius-lg: 16px;
+
+  // Shadows
+  --bs-shadow-card: 0 2px 8px rgba(42,36,32,0.08), 0 1px 2px rgba(42,36,32,0.04);
+  --bs-shadow-card-hover: 0 8px 24px rgba(42,36,32,0.14), 0 2px 6px rgba(42,36,32,0.08);
+}
+
+// ── Hydejack Variable Overrides ─────────────────────────────
+:root {
+  --accent-color: var(--bs-terracotta);
+  --body-bg:          var(--bs-cream);
+  --body-color:       var(--bs-charcoal);
+  --heading-color:    var(--bs-charcoal);
+  --link-color:       var(--bs-terracotta);
+  --link-hover-color: var(--bs-ochre);
+  --border-color:     var(--bs-rule);
+}
+
+// ── Base Typography ─────────────────────────────────────────
+body {
+  font-family: var(--bs-font-body);
+  background: var(--bs-cream);
+  color: var(--bs-charcoal);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .page-title, .post-title {
+  font-family: var(--bs-font-display);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+a {
+  color: var(--bs-terracotta);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 2px;
+  transition: color 0.18s, text-decoration-color 0.18s;
+
+  &:hover {
+    color: var(--bs-ochre);
+    text-decoration-color: currentColor;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--bs-terracotta);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+// ── Section Headings ────────────────────────────────────────
+.section-heading {
+  font-family: var(--bs-font-display);
+  font-size: 1.75rem;
+  color: var(--bs-charcoal);
+  margin-top: var(--bs-space-2xl);
+  margin-bottom: var(--bs-space-lg);
+  padding-bottom: var(--bs-space-sm);
+  border-bottom: 2px solid var(--bs-terracotta);
+  display: inline-block;
+}
+
+// ── Buttons ─────────────────────────────────────────────────
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  font-family: var(--bs-font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  border-radius: var(--bs-radius-sm);
+  text-decoration: none;
+  transition: all 0.18s ease;
+  cursor: pointer;
+
+  &--primary {
+    background: var(--bs-terracotta);
+    color: #fff;
+    border: 2px solid var(--bs-terracotta);
+
+    &:hover {
+      background: #9E4A2E;
+      border-color: #9E4A2E;
+      color: #fff;
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--bs-terracotta);
+      outline-offset: 3px;
+    }
+  }
+
+  &--outline {
+    background: transparent;
+    color: var(--bs-terracotta);
+    border: 2px solid var(--bs-terracotta);
+
+    &:hover {
+      background: var(--bs-terracotta);
+      color: #fff;
+    }
+  }
+}
+
+// ── Intro Block ─────────────────────────────────────────────
+.intro-block {
+  max-width: 680px;
+  padding: var(--bs-space-xl) 0 var(--bs-space-lg);
+}
+
+.intro-tagline {
+  font-family: var(--bs-font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--bs-warm-grey);
+  margin-bottom: var(--bs-space-lg);
+}
+
+.intro-bio {
+  font-size: 1.05rem;
+  line-height: 1.72;
+  color: var(--bs-charcoal);
+  margin-bottom: var(--bs-space-md);
+
+  strong {
+    color: var(--bs-charcoal);
+    font-weight: 600;
+  }
+}
+
+.intro-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--bs-space-md);
+  margin-top: var(--bs-space-xl);
+}
+
+// ── Work Type Badges ────────────────────────────────────────
+.work-type-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  line-height: 1;
+
+  &--design {
+    background: rgba(140, 107, 122, 0.14);
+    color: var(--bs-mauve);
+    border: 1px solid rgba(140, 107, 122, 0.3);
+  }
+  &--product {
+    background: rgba(180, 88, 56, 0.12);
+    color: var(--bs-terracotta);
+    border: 1px solid rgba(180, 88, 56, 0.25);
+  }
+  &--development {
+    background: rgba(92, 122, 140, 0.12);
+    color: var(--bs-slate);
+    border: 1px solid rgba(92, 122, 140, 0.25);
+  }
+  &--writing {
+    background: rgba(74, 103, 65, 0.12);
+    color: var(--bs-sage);
+    border: 1px solid rgba(74, 103, 65, 0.25);
+  }
+}
+
+// ── Featured Work Grid ──────────────────────────────────────
+.featured-work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--bs-space-xl);
+  margin: var(--bs-space-lg) 0 var(--bs-space-xl);
+}
+
+.section-cta {
+  text-align: center;
+  margin-top: var(--bs-space-lg);
+}
+
+// ── Work Grid (full index) ───────────────────────────────────
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--bs-space-xl);
+  margin-top: var(--bs-space-lg);
+}
+
+// ── Work Card ────────────────────────────────────────────────
+.work-card {
+  background: #fff;
+  border-radius: var(--bs-radius-md);
+  box-shadow: var(--bs-shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.22s ease, transform 0.22s ease;
+
+  &:hover {
+    box-shadow: var(--bs-shadow-card-hover);
+    transform: translateY(-3px);
+  }
+
+  &--featured {
+    border: 2px solid var(--bs-parchment);
+  }
+}
+
+.work-card-link {
+  display: block;
+  text-decoration: none;
+}
+
+.work-card-thumb {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--bs-parchment);
+}
+
+.work-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+
+  .work-card:hover & {
+    transform: scale(1.03);
+  }
+}
+
+.work-card-thumb--empty {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--bs-parchment) 0%, var(--bs-cream) 100%);
+}
+
+.work-card-thumb-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--bs-warm-grey);
+  border: 1.5px dashed var(--bs-rule);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--bs-radius-sm);
+}
+
+.work-card-body {
+  padding: var(--bs-space-lg);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--bs-space-sm);
+}
+
+.work-card-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--bs-space-sm);
+}
+
+.work-card-year {
+  font-size: 0.78rem;
+  color: var(--bs-warm-grey);
+  margin-left: auto;
+}
+
+.work-card-title {
+  font-family: var(--bs-font-display);
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 1.3;
+
+  a {
+    color: var(--bs-charcoal);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--bs-terracotta);
+    }
+  }
+}
+
+.work-card-summary {
+  font-size: 0.9rem;
+  color: var(--bs-warm-grey);
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+.work-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--bs-space-sm);
+  padding-top: var(--bs-space-sm);
+  border-top: 1px solid var(--bs-rule);
+}
+
+.work-card-org {
+  font-size: 0.78rem;
+  color: var(--bs-warm-grey);
+  font-weight: 500;
+}
+
+.work-card-cta {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--bs-terracotta);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--bs-ochre);
+    text-decoration: underline;
+  }
+}
+
+// ── Résumé Components ────────────────────────────────────────
+.resume-section {
+  margin-top: var(--bs-space-xl);
+
+  & + & {
+    margin-top: var(--bs-space-2xl);
+    padding-top: var(--bs-space-xl);
+    border-top: 1px solid var(--bs-rule);
+  }
+}
+
+.resume-category {
+  font-family: var(--bs-font-display);
+  font-size: 1.3rem;
+  color: var(--bs-charcoal);
+  margin-bottom: var(--bs-space-lg);
+  padding-bottom: var(--bs-space-xs);
+  border-bottom: 1px solid var(--bs-rule);
+}
+
+.resume-category-note {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--bs-warm-grey);
+  margin-bottom: var(--bs-space-xl);
+  line-height: 1.6;
+}
+
+.resume-entry {
+  padding: var(--bs-space-lg) 0;
+  border-bottom: 1px solid var(--bs-parchment);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.resume-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--bs-space-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--bs-space-sm);
+}
+
+.resume-entry-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.resume-company {
+  font-family: var(--bs-font-display);
+  font-size: 1.05rem;
+  color: var(--bs-charcoal);
+  font-weight: 400;
+}
+
+.resume-role {
+  font-size: 0.9rem;
+  color: var(--bs-terracotta);
+  font-weight: 500;
+}
+
+.resume-period {
+  font-size: 0.82rem;
+  color: var(--bs-warm-grey);
+  white-space: nowrap;
+  font-weight: 400;
+  padding-top: 0.15rem;
+}
+
+.resume-bullets {
+  margin: var(--bs-space-sm) 0 0 0;
+  padding-left: 1.25rem;
+  list-style: none;
+
+  li {
+    position: relative;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: #4a4240;
+    margin-bottom: 0.35rem;
+    padding-left: 0.75rem;
+
+    &::before {
+      content: '–';
+      position: absolute;
+      left: -0.5rem;
+      color: var(--bs-warm-grey);
+    }
+  }
+}
+
+// ── Skills Grid ─────────────────────────────────────────────
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--bs-space-lg);
+  margin-top: var(--bs-space-lg);
+}
+
+.skill-group {
+  padding: var(--bs-space-lg);
+  background: #fff;
+  border-radius: var(--bs-radius-md);
+  border: 1px solid var(--bs-rule);
+
+  h4 {
+    font-family: var(--bs-font-body);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--bs-terracotta);
+    margin-bottom: var(--bs-space-sm);
+  }
+
+  p {
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--bs-warm-grey);
+    margin: 0;
+  }
+}
+
+// ── Education ────────────────────────────────────────────────
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--bs-space-lg);
+  margin-top: var(--bs-space-lg);
+}
+
+.education-item {
+  padding: var(--bs-space-lg);
+  border-left: 3px solid var(--bs-terracotta);
+  padding-left: var(--bs-space-lg);
+  background: #fff;
+  border-radius: 0 var(--bs-radius-sm) var(--bs-radius-sm) 0;
+}
+
+.education-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--bs-space-md);
+  flex-wrap: wrap;
+}
+
+.education-degree {
+  font-family: var(--bs-font-display);
+  font-size: 1.05rem;
+  color: var(--bs-charcoal);
+}
+
+.education-year {
+  font-size: 0.82rem;
+  color: var(--bs-warm-grey);
+}
+
+.education-school {
+  display: block;
+  font-size: 0.88rem;
+  color: var(--bs-terracotta);
+  font-weight: 500;
+  margin-top: 0.15rem;
+}
+
+.education-note {
+  font-size: 0.88rem;
+  color: var(--bs-warm-grey);
+  line-height: 1.6;
+  margin: 0.5rem 0 0;
+}
+
+// ── Case Study Layout ────────────────────────────────────────
+.case-study {
+  max-width: 760px;
+}
+
+.case-study-header {
+  padding-bottom: var(--bs-space-xl);
+  border-bottom: 1px solid var(--bs-rule);
+  margin-bottom: var(--bs-space-xl);
+}
+
+.case-study-meta-row {
+  display: flex;
+  align-items: center;
+  gap: var(--bs-space-sm);
+  margin-bottom: var(--bs-space-md);
+}
+
+.case-study-year {
+  font-size: 0.82rem;
+  color: var(--bs-warm-grey);
+}
+
+.case-study-title {
+  font-family: var(--bs-font-display);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.15;
+  color: var(--bs-charcoal);
+  margin: 0 0 var(--bs-space-md);
+}
+
+.case-study-summary {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #5A5250;
+  max-width: 600px;
+  margin: 0 0 var(--bs-space-lg);
+}
+
+.case-study-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--bs-space-md) var(--bs-space-lg);
+  margin: 0;
+  padding: var(--bs-space-lg);
+  background: var(--bs-parchment);
+  border-radius: var(--bs-radius-md);
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  dt {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--bs-warm-grey);
+  }
+
+  dd {
+    font-size: 0.92rem;
+    color: var(--bs-charcoal);
+    margin: 0;
+  }
+
+  a {
+    color: var(--bs-terracotta);
+  }
+}
+
+.case-study-hero {
+  margin: var(--bs-space-xl) 0;
+  border-radius: var(--bs-radius-md);
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: var(--bs-parchment);
+}
+
+.case-study-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.case-study-hero--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bs-warm-grey);
+  font-size: 0.9rem;
+  border: 2px dashed var(--bs-rule);
+}
+
+.case-study-body {
+  h2 {
+    font-family: var(--bs-font-display);
+    font-size: 1.4rem;
+    margin-top: 0;
+    color: var(--bs-charcoal);
+  }
+
+  p, li {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #4a4240;
+  }
+}
+
+.case-study-section {
+  margin-top: var(--bs-space-2xl);
+  padding-top: var(--bs-space-xl);
+  border-top: 1px solid var(--bs-rule);
+
+  &--outcome {
+    background: var(--bs-parchment);
+    padding: var(--bs-space-xl);
+    border-radius: var(--bs-radius-md);
+    border-top: none;
+    margin-top: var(--bs-space-xl);
+
+    h2 {
+      color: var(--bs-sage);
+    }
+  }
+}
+
+.case-study-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--bs-space-lg);
+  margin-top: var(--bs-space-lg);
+}
+
+.case-study-figure {
+  margin: 0;
+  border-radius: var(--bs-radius-md);
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    background: var(--bs-parchment);
+  }
+
+  figcaption {
+    font-size: 0.82rem;
+    color: var(--bs-warm-grey);
+    padding: 0.5rem 0;
+    font-style: italic;
+  }
+}
+
+.case-study-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--bs-space-md);
+  margin-top: var(--bs-space-2xl);
+  padding-top: var(--bs-space-xl);
+  border-top: 1px solid var(--bs-rule);
+}
+
+// ── Hydejack Sidebar Tweaks ──────────────────────────────────
+// Keep the sidebar dark (current underwater aesthetic)
+// but tune link and accent colors to match palette
+.sidebar {
+  .sidebar-about .author-image img {
+    border: 3px solid rgba(180, 88, 56, 0.5);
+    border-radius: 50%;
+  }
+
+  a {
+    &:hover {
+      color: var(--bs-ochre);
+    }
+  }
+}
+
+// ── Dark mode overrides ──────────────────────────────────────
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bs-cream:     #1E1A17;
+    --bs-parchment: #2A2420;
+    --bs-charcoal:  #EDE8E2;
+    --bs-rule:      #3A322C;
+    --bs-warm-grey: #9A8E84;
+  }
+
+  .work-card,
+  .skill-group,
+  .education-item {
+    background: #2A2420;
+  }
+}
+
+// ── Responsive ───────────────────────────────────────────────
+@media (max-width: 768px) {
+  .featured-work-grid,
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-entry-header {
+    flex-direction: column;
+    gap: var(--bs-space-xs);
+  }
+
+  .resume-period {
+    font-size: 0.8rem;
+  }
+
+  .intro-block {
+    padding: var(--bs-space-lg) 0;
+  }
+
+  .case-study-details {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .case-study-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .case-study-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .case-study-details {
+    grid-template-columns: 1fr;
+  }
+
+  .education-meta {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+}
