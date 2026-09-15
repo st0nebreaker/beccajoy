@@ -1,5 +1,5 @@
 ---
-layout: welcome
+layout: base
 title: Becca Steinbrecher
 cover: false
 ---
