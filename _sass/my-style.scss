@@ -767,6 +767,16 @@ a {
   }
 }
 
+.sidebar-name {
+  line-height: 1.08;
+}
+
+.sidebar-name__joy {
+  color: #d19a32;
+  font-style: italic;
+  white-space: nowrap;
+}
+
 // ── Responsive ───────────────────────────────────────────────
 @media (max-width: 768px) {
   .featured-work-grid,
