@@ -13,11 +13,11 @@ cover: false
       inside mission-driven organizations: conservation, social impact, and community wellness.
     </p>
     <p class="intro-bio">
-      That combination is the throughline of my work. I know what it's like to need a polished, 
-      accessible, user-first product without a big engineering org to build it — the same needs 
-      and constraints that lean NGO teams and startups both live with. I bring strategy, design 
-      systems thinking, and hands-on frontend and design development to teams and missions that 
-      need both craft and pragmatism.
+      That combination is the throughline of my work. I know what it’s like to need a polished, 
+      accessible, user-first product without a big engineering org to build it — needs and constraints 
+      that lean NGO teams and startups both live with. I bridge product strategy, project management, 
+      design systems thinking, and hands-on frontend and design development, helping teams and missions 
+      turn ideas into thoughtful, practical products with craft and pragmatism.
     </p>
     <div class="intro-cta">
       <a href="/work/" class="btn btn--outlin">See My Work</a>
