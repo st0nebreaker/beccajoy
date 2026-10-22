@@ -6,22 +6,20 @@ cover: false
 
 <div class="intro-block">
   <div class="intro-lead">
-    <p class="intro-tagline">UX / Design Engineer &amp; Product Professional</p>
+    <p class="intro-tagline">UX / Design Engineer &amp; Project Manager</p>
     <p class="intro-bio">
       I sit at an unusual junction: <strong>tech and nonprofits</strong>. Six years building 
       user-facing software with React, Vue, TypeScript, and Figma layered on top of a decade 
       inside mission-driven organizations: conservation, social impact, and community wellness.
     </p>
     <p class="intro-bio">
-      That combination is the throughline of my work. I know what it’s like to need a polished, 
-      accessible, user-first product without a big engineering org to build it, needs and constraints 
-      that lean NGO teams and startups both live with. I bridge product strategy, project management, 
-      design systems thinking, and hands-on frontend and design development, helping teams and missions 
-      turn ideas into thoughtful, practical products with craft and pragmatism.
+      That combination is the throughline of my work. I know what it’s like to need a polished, accessible, user-first product without a big
+      engineering org to build it. Lean NGO and startup teams share those needs and constraints. I bring together product strategy, project
+      management, interface design, and frontend development to help teams turn ideas into thoughtful, practical products.
     </p>
     <div class="intro-cta">
-      <a href="/work/" class="btn btn--outlin">See My Work</a>
-      <a href="/resume/" class="btn btn--outline">View Résumé</a>
+      <a href="/work/" class="btn btn--outline">See My Work</a>
+      <a href="/resume/" class="btn btn--outline">View Resume</a>
     </div>
   </div>
 </div>

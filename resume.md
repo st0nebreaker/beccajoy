@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Résumé
+title: Resume
 permalink: /resume/
 cover: false
 ---
@@ -64,7 +64,7 @@ cover: false
 ### Mission-Driven Work
 {:.resume-category}
 
-<p class="resume-category-note">The same skill set — systems thinking, clear communication, community-first design — applied inside nonprofit, conservation, and wellness organizations.</p>
+<p class="resume-category-note">Same skill set — systems thinking, communication, community-first design — applied inside nonprofit, conservation, and wellness organizations.</p>
 
 {% include resume-entry.html
    company="Vital Element"

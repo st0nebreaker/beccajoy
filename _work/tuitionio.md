@@ -1,0 +1,33 @@
+---
+layout: case-study
+type: professional
+year: "2020–2021"
+title: "Tuition.io"
+summary: >-
+  Translating customer and product requirements into responsive interfaces for an employer-sponsored education benefits platform.
+role: "UX Engineer + Project Manager"
+organization: "Blue Ridge Digital / Tuition.io"
+featured: true
+tools:
+  - React
+  - Vue
+  - Frontend debugging
+  - Expanded and maintained test coverage
+  - Legacy code refactoring
+link: https://www.tuition.io/
+thumbnail: /assets/img/work/tio2.jpg
+
+challenge: >-
+  Make education benefit information easier to navigate while accommodating client requirements and maintaining a consistent, reliable frontend experience.
+
+process: >-
+  I translated customer and product requirements into user flows and frontend solutions, combining UX engineering with project coordination. My work included responsive interfaces, legacy code refactoring, and resolving production UI issues.
+
+outcome: >-
+  Contributed frontend improvements that increased interface consistency and reliability within the client product.
+
+images:
+  - src: /assets/img/work/tio2.jpg
+    alt: "Tuition.io dashboard showing employer student loan contributions"
+    caption: "A dashboard presenting contribution history and projected loan repayment impact."
+---

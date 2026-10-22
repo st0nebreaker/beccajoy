@@ -1,9 +1,10 @@
 # Site settings
 title: Becca Steinbrecher
-tagline: UX / Design Engineer · Product Professional
+tagline: UX / Design Engineer · Project Manager
 description: >
-  Designer and engineer at the intersection of tech and mission-driven work.
-  6 years building user-facing software, a decade inside nonprofits and conservation orgs.
+  Designer, engineer, and project manager at the intersection of tech
+  and mission-driven work. Six years building user-facing software,
+  with a decade of experience in nonprofits and conservation organizations.
 url: https://beccajoy.pages.dev
 baseurl: ""
 
@@ -14,8 +15,8 @@ author:
   phone: "(858) 431-6492"
   picture: /assets/img/becca-portrait.jpg
   about: |
-    UX / Design Engineer and product professional at the intersection of 
-    tech and mission-driven work.
+    UX / Design Engineer and Project Manager connecting product strategy,
+    thoughtful design, and hands-on development for mission-driven teams.
 
 accent_image: /assets/img/sidebar-art.png
 accent_color: rgb(180, 89, 56)
@@ -31,7 +32,7 @@ font_code:    "'JetBrains Mono', 'Fira Mono', monospace"
 menu:
   - title: About
     url:   /
-  - title: Résumé
+  - title: Resume
     url:   /resume/
   - title: Work
     url:   /work/
@@ -55,8 +56,6 @@ links:
     url:   https://www.linkedin.com/in/becca-steinbrecher  # update with real URL
   - title: GitHub
     url:   https://github.com/bsteinbrecher               # update with real URL
-  - title: Writing Samples
-    url:   /work/?filter=writing
 
 # Hydejack options
 hydejack:
