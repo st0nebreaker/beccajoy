@@ -24,7 +24,7 @@ challenge: >-
   Turn a collection of 100+ cocktail recipes into an approachable experience for both casual browsing and searching by a specific drink or ingredient.
 
 process: >-
-  I contributed to product design, frontend implementation, and project management within a four-person team. We built the application using React and TypeScript, integrated The Cocktail Database, and tested with Jest and React Testing Library.
+  I contributed to product design, front end implementation, and project management within a four-person team. We built the application using React and TypeScript, integrated The Cocktail Database, and tested with Jest and React Testing Library.
   A shared Trello board, daily standups, and remote check-ins supported delivery.
 
 outcome: >-

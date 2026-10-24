@@ -19,7 +19,7 @@ cover: false
    company="Vital Element"
    role="Product Designer / UX Engineer"
    period="Jan 2026 – Present"
-   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across 6+ core product journeys.|Build frontend prototypes and production interfaces in React/TypeScript across 10+ product features, including component architecture, interaction states, and responsive UI.|Use AI tools and agent-based workflows for product discovery, scoping requirements, design exploration, prototyping, research, documentation, and development.|Partner with product and engineering to define requirements, resolve UX ambiguity, scope work, and coordinate delivery across 5+ stakeholders."
+   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across 6+ core product journeys.|Build front end prototypes and production interfaces in React/TypeScript across 10+ product features, including component architecture, interaction states, and responsive UI.|Use AI tools and agent-based workflows for product discovery, scoping requirements, design exploration, prototyping, research, documentation, and development.|Partner with product and engineering to define requirements, resolve UX ambiguity, scope work, and coordinate delivery across 5+ stakeholders."
 %}
 
 {% include resume-entry.html
@@ -33,26 +33,26 @@ cover: false
    company="Sourcegraph"
    role="Design Engineer"
    period="Mar 2022 – Sep 2023"
-   bullets="Designed and implemented 20+ user flows and interfaces for developer-tool and administrative features using React/TypeScript.|Improved accessibility and usability through WCAG 2.1 audits and frontend remediation across multiple product surfaces.|Built and debugged end-user workflows spanning Git integrations, batch changes, and administrative tooling."
+   bullets="Designed and implemented 20+ user flows and interfaces for developer-tool and administrative features using React/TypeScript.|Improved accessibility and usability through WCAG 2.1 audits and front end remediation across multiple product surfaces.|Built and debugged end-user workflows spanning Git integrations, batch changes, and administrative tooling."
 %}
 
 {% include resume-entry.html
    company="Slalom"
    role="Front End Engineer"
    period="Aug 2021 – Mar 2022"
-   bullets="Designed and implemented 10+ responsive workflows, creating reusable UI components, for a multi-client applicant portal using Vue/TypeScript.|Designed and developed localized calendar and scheduling experiences alongside product and executive stakeholders.|Expanded frontend testing and documentation, contributing to a 13% reduction in user-facing bugs."
+   bullets="Designed and implemented 10+ responsive workflows, creating reusable UI components, for a multi-client applicant portal using Vue/TypeScript.|Designed and developed localized calendar and scheduling experiences alongside product and executive stakeholders.|Expanded front end testing and documentation, contributing to a 13% reduction in user-facing bugs."
 %}
 
 {% include resume-entry.html
    company="Blue Ridge Digital — Tuition.io"
    role="UX Engineer"
    period="Aug 2020 – Aug 2021"
-   bullets="Designed and implemented user flows and responsive interfaces for React and Vue client projects.|Translated customer and product requirements into UX flows and frontend solutions across 5+ client implementations.|Refactored legacy frontend code and resolved production UI issues, improving reliability and consistency."
+   bullets="Designed and implemented user flows and responsive interfaces for React and Vue client projects.|Translated customer and product requirements into UX flows and front end solutions across 5+ client implementations.|Refactored legacy front end code and resolved production UI issues, improving reliability and consistency."
 %}
 
 {% include resume-entry.html
    company="Turing School of Software and Design"
-   role="Frontend Developer"
+   role="Front End Developer"
    period="Jan 2020 – Sep 2020"
    bullets="Completed a 9-month immersive program focused on JavaScript, TypeScript, React, Node, and modern web development.|Designed and built 11 applications from requirements and user flows through implementation, testing, and refinement.|Collaborated in Agile sprints using TDD, debugging, documentation, and iterative feature design."
 %}
@@ -128,7 +128,7 @@ cover: false
     <p>Figma, UI/UX Design, User Flows, Interaction Design, High-Fidelity Wireframing, Prototyping, Responsive Design, Design Systems, Design-to-Code, Accessibility, WCAG 2.1, Usability, i18n</p>
   </div>
   <div class="skill-group">
-    <h4>Frontend</h4>
+    <h4>Front End</h4>
     <p>JavaScript, TypeScript, React, React Hooks, Vue.js, Redux, React Router, HTML5, CSS/SCSS/SASS, Node.js, Express</p>
   </div>
   <div class="skill-group">

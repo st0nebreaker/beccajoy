@@ -28,7 +28,7 @@ challenge: >-
   Make daily cycle tracking straightforward and help users understand information collected over time through calendar views and temperature reports.
 
 process: >-
-  I contributed to product planning, interface design, frontend development, and project coordination within a four-person frontend and backend team. We used wireframes, a detailed project board, remote pairing, and test-driven development to organize and implement the application.
+  I contributed to product planning, interface design, front end development, and project coordination within a four-person front end and backend team. We used wireframes, a detailed project board, remote pairing, and test-driven development to organize and implement the application.
 
 outcome: >-
   Built profile setup, daily logging, historical calendar views, and temperature reports, while exploring progressive web app capabilities and Bluetooth thermometer integration.

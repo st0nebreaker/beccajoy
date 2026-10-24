@@ -1139,3 +1139,18 @@ a {
 .sidebar .sidebar-contact a:hover {
   color: var(--bs-ochre);
 }
+
+.gallery-wrap { position: relative; }
+
+.gallery-scroll-hint {
+  position: absolute;
+  right: 6px;
+  top: 45%;
+  color: var(--bs-charcoal);
+  opacity: 0.4;
+  pointer-events: none;
+  background: var(--bs-cream);
+  padding: 8px;
+  box-sizing: content-box;
+  border-radius: 50%;
+}

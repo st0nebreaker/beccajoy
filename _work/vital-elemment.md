@@ -23,11 +23,11 @@ challenge: >
   Translate a complex wellness product into clear digital journeys that help guests discover sessions, check in, and control their chamber experience.
 
 process: >
-  I design high-fidelity interfaces and interaction patterns in Figma,then build frontend prototypes and production interfaces in React and TypeScript. Working with product and engineering, I define requirements, resolve UX ambiguity, scope features, and coordinate
+  I design high-fidelity interfaces and interaction patterns in Figma,then build front end prototypes and production interfaces in React and TypeScript. Working with product and engineering, I define requirements, resolve UX ambiguity, scope features, and coordinate
   delivery across 5+ stakeholders.
 
 outcome: >
-  Designed experiences across 6+ core product journeys and built interfaces across 10+ features, connecting product planning, interaction design, and frontend implementation.
+  Designed experiences across 6+ core product journeys and built interfaces across 10+ features, connecting product planning, interaction design, and front end implementation.
 
 images:
   - src: /assets/img/work/ve2.png

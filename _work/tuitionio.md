@@ -11,20 +11,20 @@ categories: [development, project]
 tools:
   - React
   - Vue
-  - Frontend debugging
+  - Front end debugging
   - Expanded and maintained test coverage
   - Legacy code refactoring
 link: https://www.tuition.io/
 thumbnail: /assets/img/work/tio2.jpg
 
 challenge: >-
-  Make education benefit information easier to navigate while accommodating client requirements and maintaining a consistent, reliable frontend experience.
+  Make education benefit information easier to navigate while accommodating client requirements and maintaining a consistent, reliable front end experience.
 
 process: >-
-  I translated customer and product requirements into user flows and frontend solutions, combining UX engineering with project coordination. My work included responsive interfaces, legacy code refactoring, and resolving production UI issues.
+  I translated customer and product requirements into user flows and front end solutions, combining UX engineering with project coordination. My work included responsive interfaces, legacy code refactoring, and resolving production UI issues.
 
 outcome: >-
-  Contributed frontend improvements that increased interface consistency and reliability within the client product.
+  Contributed front end improvements that increased interface consistency and reliability within the client product.
 
 images:
   - src: /assets/img/work/tio2.jpg
