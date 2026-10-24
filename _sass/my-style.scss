@@ -1096,6 +1096,24 @@ a {
   box-sizing: border-box;
 }
 
+#_sidebar {
+  isolation: isolate;
+}
+
+#_sidebar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.14);
+  pointer-events: none;
+}
+
+#_sidebar .sidebar-sticky {
+  position: relative;
+  z-index: 1;
+}
+
 .sidebar .sidebar-nav {
   margin-bottom: 2rem;
 }
