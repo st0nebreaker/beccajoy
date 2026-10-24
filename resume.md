@@ -32,7 +32,7 @@ cover: false
 {% include resume-entry.html
    company="TrailFunds"
    role="Product Manager"
-   period="Nov 2025 – Mar 2026"
+   period="Nov 2024 – Mar 2026"
    bullets="Shaped product strategy, UX design, and delivery for an outdoor stewardship technology startup.|Translated stakeholder needs into user flows and prioritized features.|Managed roadmaps, backlogs, project boards, documentation, and Agile processes across a cross-functional team.|Used AI tools and agent-based workflows for research, requirements, planning, documentation, and operations."
 %}
 
@@ -86,7 +86,7 @@ cover: false
   {% include resume-entry.html
     company="TrailFunds"
     role="Product Manager"
-    period="2025 – 2026"
+    period="2024 – 2026"
     bullets="Supported strategic product, communications, and operational initiatives for an early-stage conservation technology startup focused on stewardship and outdoor impact.|Built and refined collaborative systems, workflows, and project processes that improved team coordination, visibility, and execution.|Led intake, prioritization, and tracking processes that aligned stakeholder needs and organizational goals while increasing accountability and reducing ambiguity."
   %}
 
