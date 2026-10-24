@@ -15,9 +15,7 @@ cover: false
       and community wellness.
     </p>
     <p class="intro-bio">
-      That combination is the throughline of my work. I know what it’s like to need a polished, accessible, user-first product without a big
-      engineering org to build it. Lean NGO and startup teams share those needs and constraints. I bring together product strategy, project
-      management, interface design, and frontend development to help teams turn ideas into thoughtful, practical products.
+      That combination is the throughline of my work. I know what it’s like to need a polished, accessible, user-first product without a big engineering team to build it. Lean NGOs and startups share those constraints, making creative problem-solving essential. I bring together product strategy, project management, interface design, and frontend development to help teams turn ideas into thoughtful, practical, and engaging products.
     </p>
     <div class="intro-cta">
       <a href="/work/" class="btn btn--outline">See My Work</a>
