@@ -24,7 +24,7 @@ cover: false
 {% include resume-entry.html
    company="Vital Element"
    role="Product Designer / UX Engineer"
-   period="Jan 2026 – Present"
+   period="Mar 2026 – Present"
    open=true
    bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Use AI tools and agent-based workflows for discovery, research, design exploration, prototyping, documentation, and development.|Partner with product and engineering to shape product direction and manage requirements, feature prioritization, scope, and delivery planning."
 %}
