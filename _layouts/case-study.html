@@ -91,23 +91,25 @@ layout: base
     {% if page.images %}
     <section class="case-study-section">
       <h2>Gallery</h2>
-        <div class="case-study-gallery" tabindex="0" role="region" aria-label="Project screenshots">
-        {% for img in page.images %}
-          <figure class="case-study-figure">
-            <img
-              src="{{ img.src | relative_url }}"
-              alt="{{ img.alt | default: page.title }}"
-              loading="lazy"
-            >
-            {% if img.caption %}
-              <figcaption>{{ img.caption }}</figcaption>
-            {% endif %}
-          </figure>
-        {% endfor %}
-          <svg class="gallery-scroll-hint" width="26" height="16" viewBox="0 0 26 16" fill="none" aria-hidden="true">
-            <path d="M2 8H23M17 2L23 8L17 14" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-      </div>
+        <div class="gallery-wrap">
+          <div class="case-study-gallery" tabindex="0" role="region" aria-label="Project screenshots">
+          {% for img in page.images %}
+            <figure class="case-study-figure">
+              <img
+                src="{{ img.src | relative_url }}"
+                alt="{{ img.alt | default: page.title }}"
+                loading="lazy"
+              >
+              {% if img.caption %}
+                <figcaption>{{ img.caption }}</figcaption>
+              {% endif %}
+            </figure>
+          {% endfor %}
+        </div>
+      <svg class="gallery-scroll-hint" width="26" height="16" viewBox="0 0 26 16" fill="none" aria-hidden="true">
+        <path d="M2 8H23M17 2L23 8L17 14" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
     </section>
     {% endif %}
 

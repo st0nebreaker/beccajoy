@@ -1092,6 +1092,7 @@ a {
   margin: 0;
   padding: 2rem;
   padding-top: calc(2rem + 15svh);
+  padding-bottom: 15svh;
   box-sizing: border-box;
 }
 
@@ -1142,15 +1143,25 @@ a {
 
 .gallery-wrap { position: relative; }
 
-.gallery-scroll-hint {
+.gallery-wrap {
+  position: relative;
+  min-width: 0;
+}
+
+.gallery-wrap > .gallery-scroll-hint {
   position: absolute;
-  right: 6px;
+  display: block;
+  right: 8px;
   top: 45%;
-  color: var(--bs-charcoal);
-  opacity: 0.4;
-  pointer-events: none;
-  background: var(--bs-cream);
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 26px;
+  height: 16px;
   padding: 8px;
   box-sizing: content-box;
+  color: var(--bs-charcoal);
+  background: var(--bs-cream);
   border-radius: 50%;
+  opacity: 0.7;
+  pointer-events: none;
 }
