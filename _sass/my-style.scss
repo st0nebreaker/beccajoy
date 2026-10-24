@@ -1208,3 +1208,39 @@ a {
 #mission-driven-work {
   margin-top: 70px;
 }
+
+.mission-work {
+  scroll-margin-top: 5rem;
+}
+
+.mission-work > summary {
+  display: list-item;
+  cursor: pointer;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--bs-rule);
+}
+
+.mission-work > summary .resume-category {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.mission-work[open] > summary {
+  margin-bottom: 1rem;
+}
+
+.mission-work-anchor {
+  margin-left: 0.25rem;
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  border: 0;
+  opacity: 0;
+}
+
+.mission-work > summary:hover .mission-work-anchor,
+.mission-work > summary:focus-within .mission-work-anchor {
+  opacity: 0.65;
+}

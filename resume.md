@@ -60,64 +60,63 @@ cover: false
 
 </div>
 
-<div class="resume-section" markdown="1">
+<details class="resume-section mission-work" id="mission-driven-work">
+  <summary>
+    <h3 class="resume-category">Mission-Driven Work <a class="mission-work-anchor" href="#mission-driven-work" aria-label="Link to Mission-Driven Work">#</a></h3>
+  </summary>
 
-### Mission-Driven Work
-{:.resume-category}
+  <p class="resume-category-note">Same skill set — systems thinking, communication, community-first design — applied inside nonprofit, conservation, and wellness organizations.</p>
 
-<p class="resume-category-note">Same skill set — systems thinking, communication, community-first design — applied inside nonprofit, conservation, and wellness organizations.</p>
+  {% include resume-entry.html
+    company="Vital Element"
+    role="Product Designer, Project Manager"
+    period="2026 – Present"
+    open=true
+    bullets="Managed and optimized CRM and outreach systems (HubSpot + Apollo) to support audience growth, campaign execution, lead generation, and cross-functional communications workflows.|Supported brand visibility and engagement initiatives through marketing operations, reporting, process improvements, and coordinated campaign support.|Contributed to website and front-end improvements that strengthened user experience, digital presence, and marketing effectiveness."
+  %}
 
-{% include resume-entry.html
-   company="Vital Element"
-   role="Product Designer, Project Manager"
-   period="2026 – Present"
-   open=true
-   bullets="Managed and optimized CRM and outreach systems (HubSpot + Apollo) to support audience growth, campaign execution, lead generation, and cross-functional communications workflows.|Supported brand visibility and engagement initiatives through marketing operations, reporting, process improvements, and coordinated campaign support.|Contributed to website and front-end improvements that strengthened user experience, digital presence, and marketing effectiveness."
-%}
+  {% include resume-entry.html
+    company="TrailFunds"
+    role="Product Manager"
+    period="2023 – 2025"
+    bullets="Supported strategic product, communications, and operational initiatives for an early-stage conservation technology startup focused on stewardship and outdoor impact.|Built and refined collaborative systems, workflows, and project processes that improved team coordination, visibility, and execution.|Led intake, prioritization, and tracking processes that aligned stakeholder needs and organizational goals while increasing accountability and reducing ambiguity."
+  %}
 
-{% include resume-entry.html
-   company="TrailFunds"
-   role="Product Manager"
-   period="2023 – 2025"
-   bullets="Supported strategic product, communications, and operational initiatives for an early-stage conservation technology startup focused on stewardship and outdoor impact.|Built and refined collaborative systems, workflows, and project processes that improved team coordination, visibility, and execution.|Led intake, prioritization, and tracking processes that aligned stakeholder needs and organizational goals while increasing accountability and reducing ambiguity."
-%}
+  {% include resume-entry.html
+    company="Western Colorado Climbers' Coalition"
+    role="Communications Lead"
+    period="2023 – 2025"
+    bullets="Led marketing and communications across website, email, and social media channels to grow community engagement, mobilize volunteers, and strengthen public lands advocacy.|Co-produced and promoted a hybrid silent auction fundraiser benefiting a local SAR team, raising over $10,000 through donor communications, sponsorship outreach, and event promotion.|Managed CRM and donor communications platforms (HubSpot and BetterWorld) while supporting grassroots organizing, volunteer engagement, and community-centered campaigns."
+  %}
 
-{% include resume-entry.html
-   company="Western Colorado Climbers' Coalition"
-   role="Communications Lead"
-   period="2023 – 2025"
-   bullets="Led marketing and communications across website, email, and social media channels to grow community engagement, mobilize volunteers, and strengthen public lands advocacy.|Co-produced and promoted a hybrid silent auction fundraiser benefiting a local SAR team, raising over $10,000 through donor communications, sponsorship outreach, and event promotion.|Managed CRM and donor communications platforms (HubSpot and BetterWorld) while supporting grassroots organizing, volunteer engagement, and community-centered campaigns."
-%}
+  {% include resume-entry.html
+    company="Leave No Trace, Center for Outdoor Ethics"
+    role="Information + Program Manager"
+    period=""
+    bullets="Served as the primary point of contact for volunteers and educators to distribute national outreach materials.|Managed inventory and fulfillment systems to ensure timely delivery of educational resources across programs.|Provided administrative support to leadership and program teams."
+  %}
 
-{% include resume-entry.html
-   company="Leave No Trace, Center for Outdoor Ethics"
-   role="Information + Program Manager"
-   period=""
-   bullets="Served as the primary point of contact for volunteers and educators to distribute national outreach materials.|Managed inventory and fulfillment systems to ensure timely delivery of educational resources across programs.|Provided administrative support to leadership and program teams."
-%}
+  {% include resume-entry.html
+    company="Outdoor Outreach"
+    role="Senior Guide + Program Manager"
+    period=""
+    bullets="Managed logistics and scheduling for 350+ youth outdoor and stewardship programs while coordinating communications with partners, land agencies, and funders.|Contributed to annual fundraising campaigns raising over $6,000, using Salesforce for donor management, communications, and gift tracking.|Designed onboarding systems and internal tools for a 30+ instructor team to strengthen coordination and program delivery."
+  %}
 
-{% include resume-entry.html
-   company="Outdoor Outreach"
-   role="Senior Guide + Program Manager"
-   period=""
-   bullets="Managed logistics and scheduling for 350+ youth outdoor and stewardship programs while coordinating communications with partners, land agencies, and funders.|Contributed to annual fundraising campaigns raising over $6,000, using Salesforce for donor management, communications, and gift tracking.|Designed onboarding systems and internal tools for a 30+ instructor team to strengthen coordination and program delivery."
-%}
+  {% include resume-entry.html
+    company="Unbound"
+    role="Volunteer Coordinator + Advocate"
+    period=""
+    bullets="Coordinated volunteer communications, outreach, and partnerships with community and faith-based organizations to support program growth and engagement.|Developed and managed content and campaigns to increase awareness, strengthen stakeholder relationships, and support fundraising initiatives."
+  %}
 
-{% include resume-entry.html
-   company="Unbound"
-   role="Volunteer Coordinator + Advocate"
-   period=""
-   bullets="Coordinated volunteer communications, outreach, and partnerships with community and faith-based organizations to support program growth and engagement.|Developed and managed content and campaigns to increase awareness, strengthen stakeholder relationships, and support fundraising initiatives."
-%}
-
-{% include resume-entry.html
-   company="Alliance for African Assistance"
-   role="Program Coordinator"
-   period=""
-   bullets="Scheduled interpreters for refugee clients navigating healthcare, legal, and social services to support their settlement into a new country.|Supported program operations, including payroll and volunteer coordination."
-%}
-
-</div>
+  {% include resume-entry.html
+    company="Alliance for African Assistance"
+    role="Program Coordinator"
+    period=""
+    bullets="Scheduled interpreters for refugee clients navigating healthcare, legal, and social services to support their settlement into a new country.|Supported program operations, including payroll and volunteer coordination."
+  %}
+</details>
 
 ---
 
