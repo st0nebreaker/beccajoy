@@ -15,7 +15,7 @@ tools:
   - Expanded and maintained test coverage
   - Legacy code refactoring
 link: https://www.tuition.io/
-thumbnail: /assets/img/work/tio2.jpg
+thumbnail: /assets/img/work/tio2.png
 
 challenge: >-
   Make education benefit information easier to navigate while accommodating client requirements and maintaining a consistent, reliable front end experience.
@@ -27,10 +27,10 @@ outcome: >-
   Contributed front end improvements that increased interface consistency and reliability within the client product.
 
 images:
-  - src: /assets/img/work/tio2.jpg
+  - src: /assets/img/work/tio2.png
     alt: "Tuition.io dashboard showing employer student loan contributions"
     caption: "A dashboard presenting contribution history and projected loan repayment impact."
-  - src: /assets/img/work/tio1.jpg
+  - src: /assets/img/work/tio1.png
     alt: "Business valuation dashboard showing enterprise value, asset breakdown, and equity value"
     caption: "A valuation dashboard organizing financial summaries, asset composition, and supporting calculation details."
 ---
