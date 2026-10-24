@@ -156,7 +156,7 @@ cover: false
   </div>
   <div class="skill-group--secondary">
     <h4>Operations + Program Coordination</h4>
-    <p>Cross-Functional Collaboration, Project + Workflow Management, Scheduling + Logistics, Reporting + Metrics Tracking, Budget Support</p>
+    <p>Cross-Functional Collaboration, Project + Workflow Management, Scheduling + Logistics, Reporting + Metrics Tracking, Budget Tracking + Reporting</p>
   </div>
   <div class="skill-group--secondary">
     <h4>Data + CRM Management</h4>
@@ -167,7 +167,7 @@ cover: false
     <p>Client + Vendor Relations, Internal Stakeholder Coordination, Presentation Preparation, MailChimp</p>
   </div>
   <div class="skill-group--secondary">
-    <h4>Digital + Productivity Tools</h4>
+    <h4>Productivity Tools</h4>
     <p>Microsoft Office Suite, Google Workspace, Airtable, Notion, Canva, Adobe Creative Suite, Photoshop, Illustrator, WordPress</p>
   </div>
 </div>
