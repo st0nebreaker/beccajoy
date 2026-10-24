@@ -52,7 +52,7 @@ cover: false
 
 {% include resume-entry.html
    company="Turing School of Software and Design"
-   role="Front End Engineering Student"
+   role="Frontend Developer"
    period="Jan 2020 – Sep 2020"
    bullets="Completed a 9-month immersive program focused on JavaScript, TypeScript, React, Node, and modern web development.|Designed and built 11 applications from requirements and user flows through implementation, testing, and refinement.|Collaborated in Agile sprints using TDD, debugging, documentation, and iterative feature design."
 %}
