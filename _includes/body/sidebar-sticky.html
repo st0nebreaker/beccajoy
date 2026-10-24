@@ -11,7 +11,7 @@
         Steinbrecher
       </h2>
     </a>
-    {% assign text = Product Designer · UX / Front End Engineer · Project Manager | default:site.description %}
+    {% assign text = Product Designer · UX / Front End Engineer · Project Manager | default:site.slug %}
     {% if text %}
       <p class="{% if text.size > 100 %}fine{% endif %}">
         {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
