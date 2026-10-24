@@ -1,7 +1,11 @@
 ---
 layout: base
-title: Becca Steinbrecher
+title: Becca Joy
 cover: false
+image:
+  path: /assets/img/beccajoy-social-preview.jpg
+description: >
+  Designer, engineer, and project manager connecting tech and mission-driven causes.
 ---
 
 <div class="intro-block">
