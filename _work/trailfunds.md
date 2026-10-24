@@ -8,7 +8,9 @@ featured: true
 featured_order: 3
 thumbnail: /assets/img/work/tf1.png
 summary: >
-  Shaped product strategy, UX design, and delivery across 15+ initiatives for a conservation platform connecting trail users with stewardship organizations.
+  Shaped product strategy, UX design, and delivery
+  across features connecting trail users with 
+  stewardship organizations.
 categories: [design, project]
 tools:
   - Product roadmaps
@@ -16,15 +18,6 @@ tools:
   - Product documentation
   - AI-assisted research and planning
 link: https://www.trailfunds.org/
-
-challenge: >
-  Support two connected audiences: stewardship organizations managing field work, volunteers, and reporting, and trail users looking to discover trails, donate, and get involved.
-
-process: >
-  I shaped product strategy and UX design, translating stakeholder needs into user flows, requirements, and prioritized feature work. I managed the roadmap, backlog, project boards, documentation, and Agile processes across a team of 5 people.
-
-outcome: >
-  Led strategy, design, and delivery across 15+ product initiatives, turning organizational needs and conservation goals into actionable product plans.
 
 images:
   - src: /assets/img/work/tf0.png
@@ -37,3 +30,7 @@ images:
     alt: "TrailFunds mobile dashboard with donation totals and activity"
     caption: "A dashboard for reviewing donations and contribution history."
 ---
+
+## My contribution
+
+Shaped product strategy, UX design, and delivery across 15+ conservation product features. Translated stakeholder needs into user flows and prioritized features, while managing roadmaps, backlogs, and team coordination.

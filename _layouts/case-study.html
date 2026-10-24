@@ -3,7 +3,6 @@ layout: base
 ---
 
 <article class="case-study">
-
   <header class="case-study-header">
     <div class="case-study-meta-row">
       {% if page.type %}
@@ -50,12 +49,7 @@ layout: base
 
   {% if page.thumbnail %}
     <div class="case-study-hero">
-      <img
-        src="{{ page.thumbnail | relative_url }}"
-        alt="{{ page.title }} — hero image"
-        class="case-study-hero-img"
-        loading="lazy"
-      >
+      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }} — hero image" class="case-study-hero-img" loading="lazy">
     </div>
   {% else %}
     <div class="case-study-hero case-study-hero--empty">
@@ -64,63 +58,35 @@ layout: base
   {% endif %}
 
   <div class="case-study-body">
-
-    {% if page.challenge %}
-    <section class="case-study-section">
-      <h2>Challenge</h2>
-      <p>{{ page.challenge }}</p>
-    </section>
-    {% endif %}
-
-    {% if page.process %}
-    <section class="case-study-section">
-      <h2>Process</h2>
-      <p>{{ page.process }}</p>
-    </section>
-    {% endif %}
-
     {{ content }}
 
-    {% if page.outcome %}
-    <section class="case-study-section case-study-section--outcome">
-      <h2>Outcome</h2>
-      <p>{{ page.outcome }}</p>
-    </section>
-    {% endif %}
-
     {% if page.images %}
-    <section class="case-study-section">
-      <h2>Gallery</h2>
+      <section class="case-study-section">
+        <h2>Gallery</h2>
         <div class="gallery-wrap">
           <div class="case-study-gallery" tabindex="0" role="region" aria-label="Project screenshots">
-          {% for img in page.images %}
-            <figure class="case-study-figure">
-              <img
-                src="{{ img.src | relative_url }}"
-                alt="{{ img.alt | default: page.title }}"
-                loading="lazy"
-              >
-              {% if img.caption %}
-                <figcaption>{{ img.caption }}</figcaption>
-              {% endif %}
-            </figure>
-          {% endfor %}
+            {% for img in page.images %}
+              <figure class="case-study-figure">
+                <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
+                {% if img.caption %}
+                  <figcaption>{{ img.caption }}</figcaption>
+                {% endif %}
+              </figure>
+            {% endfor %}
+          </div>
+          <svg class="gallery-scroll-hint" width="26" height="16" viewBox="0 0 26 16" fill="none" aria-hidden="true">
+            <path d="M2 8H23M17 2L23 8L17 14" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </div>
-      <svg class="gallery-scroll-hint" width="26" height="16" viewBox="0 0 26 16" fill="none" aria-hidden="true">
-        <path d="M2 8H23M17 2L23 8L17 14" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </div>
-    </section>
+      </section>
     {% endif %}
-
-  </div><!-- /.case-study-body -->
+  </div>
 
   <footer class="case-study-footer">
-    <a href="/work/" class="btn btn--outline">&larr; All Work</a>
+    <a href="{{ '/work/' | relative_url }}" class="btn btn--outline">&larr; All Work</a>
     {% assign next_item = site.work | where_exp: "item", "item.url != page.url" | first %}
     {% if next_item %}
       <a href="{{ next_item.url | relative_url }}" class="btn btn--primary">Next Project &rarr;</a>
     {% endif %}
   </footer>
-
 </article>

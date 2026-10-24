@@ -1186,3 +1186,21 @@ a {
   opacity: 0.7;
   pointer-events: none;
 }
+
+.case-study-hero:not(.case-study-hero--empty) {
+  height: auto;
+  min-height: 0;
+  aspect-ratio: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.case-study-hero .case-study-hero-img {
+  display: block;
+  position: static;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  object-fit: contain;
+}

@@ -8,9 +8,7 @@ featured: true
 featured_order: 1
 thumbnail: /assets/img/work/ve1.png
 summary: >
-  Designing high-fidelity interfaces and building production-ready 
-  React/TypeScript components across 10+ product features for a 
-  health and wellness technology platform.
+  Designing high-fidelity interfaces and building React/TypeScript components across 10+ features for a health and wellness technology platform.
 categories: [design, development, project]
 tools:
   - Figma
@@ -19,16 +17,6 @@ tools:
   - SCSS
   - AI-assisted design and development
   - Storybook
-
-challenge: >
-  Translate a complex wellness product into clear digital journeys that help guests discover sessions, check in, and control their chamber experience.
-
-process: >
-  I design high-fidelity interfaces and interaction patterns in Figma, then build front end prototypes and production interfaces in React and TypeScript. Working with product and engineering, I define requirements, resolve UX ambiguity, scope features, and coordinate
-  delivery across 5+ stakeholders.
-
-outcome: >
-  Designed experiences across 6+ core product journeys and built interfaces across 10+ features, connecting product planning, interaction design, and front end implementation.
 
 images:
   - src: /assets/img/work/ve2.png
@@ -41,3 +29,7 @@ images:
     alt: "Vital Element map showing chamber locations"
     caption: "Location discovery and access to booking."
 ---
+
+## My contribution
+
+Designed 6+ core journeys spanning session discovery, check-in, and chamber controls. Implemented designs building React/TypeScript interfaces across 10+ features and coordinated requirements, scope, and delivery with product and engineering.
