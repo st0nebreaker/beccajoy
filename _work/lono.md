@@ -7,6 +7,7 @@ summary: >-
   A cycle-tracking application that brings daily temperature entries, symptoms, calendar history, and visual reports into one experience.
 role: "Product Designer, UX Engineer + Project Manager"
 organization: "Turing School of Software and Design"
+categories: [design, development, project]
 tools:
   - Figma
   - React
@@ -31,7 +32,7 @@ process: >-
 
 outcome: >-
   Built profile setup, daily logging, historical calendar views, and temperature reports, while exploring progressive web app capabilities and Bluetooth thermometer integration.
-  
+
 images:
   - src: /assets/img/work/l4.png
     alt: "Lono daily check-in form for temperature, symptoms, and notes"

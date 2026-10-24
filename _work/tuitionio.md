@@ -1,6 +1,5 @@
 ---
 layout: case-study
-type: professional
 year: "2020–2021"
 title: "Tuition.io"
 summary: >-
@@ -8,6 +7,7 @@ summary: >-
 role: "UX Engineer + Project Manager"
 organization: "Blue Ridge Digital / Tuition.io"
 featured: true
+categories: [development, project]
 tools:
   - React
   - Vue

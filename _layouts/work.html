@@ -3,42 +3,26 @@ layout: page
 ---
 
 <style>
-  .work-filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--bs-rule);
-  }
-  .work-filter-bar a {
-    display: inline-block;
-    padding: 0.35rem 1rem;
-    font-size: 0.8rem;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    border: 1.5px solid var(--bs-warm-grey);
-    border-radius: 2rem;
-    color: var(--bs-warm-grey);
-    text-decoration: none;
-    transition: all 0.18s ease;
-  }
-  .work-filter-bar a:hover,
-  .work-filter-bar a.active {
-    background: var(--bs-terracotta);
-    border-color: var(--bs-terracotta);
-    color: #fff;
+  .work-filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--bs-rule); }
+  .work-filter-bar a { display: inline-block; padding: 0.35rem 1rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; border: 1.5px solid var(--bs-warm-grey); border-radius: 2rem; color: var(--bs-warm-grey); text-decoration: none; transition: all 0.18s ease; }
+  .work-filter-bar a:hover, .work-filter-bar a.active { background: var(--bs-terracotta); border-color: var(--bs-terracotta); color: #fff; }
+
+  .work-grid, .featured-work-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+  .work-grid > *, .featured-work-grid > * { min-width: 0; width: 100%; margin: 0; }
+  #work-grid .work-card[hidden] { display: none !important; }
+
+  @media (max-width: 700px) {
+    .work-grid, .featured-work-grid { grid-template-columns: 1fr; }
   }
 </style>
 
 {{ content }}
 
-<nav class="work-filter-bar" aria-label="Filter work by type">
-  <a href="/work/" class="{% unless page.url contains '?filter=' %}active{% endunless %}">All</a>
-  <a href="/work/?filter=design">Product Designer</a>
-  <a href="/work/?filter=development">UX Engineer</a>
-  <a href="/work/?filter=product">Project Manager</a>
+<nav class="work-filter-bar" aria-label="Filter work by role">
+  <a href="{{ '/work/' | relative_url }}" data-filter="all">All</a>
+  <a href="{{ '/work/' | relative_url }}?filter=design" data-filter="design">Product Designer</a>
+  <a href="{{ '/work/' | relative_url }}?filter=development" data-filter="development">UX Engineer</a>
+  <a href="{{ '/work/' | relative_url }}?filter=product" data-filter="product">Project Manager</a>
 </nav>
 
 <div class="work-grid" id="work-grid">
@@ -49,17 +33,46 @@ layout: page
 </div>
 
 <script>
-  (function () {
-    var params = new URLSearchParams(window.location.search);
-    var filter = params.get('filter');
-    if (!filter) return;
+(function () {
+  function applyWorkFilter() {
+    var grid = document.getElementById('work-grid');
+    if (!grid) return;
 
-    document.querySelectorAll('.work-filter-bar a').forEach(function (link) {
-      link.classList.toggle('active', link.href.includes('filter=' + filter));
+    var filter = new URLSearchParams(window.location.search).get('filter') || 'all';
+    if (!['all', 'design', 'development', 'product'].includes(filter)) filter = 'all';
+
+    document.querySelectorAll('.work-filter-bar a[data-filter]').forEach(function (link) {
+      var active = link.dataset.filter === filter;
+      link.classList.toggle('active', active);
+      if (active) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
     });
-    document.querySelectorAll('.work-card').forEach(function (card) {
-      var types = card.dataset.types || '';
-      card.style.display = types.includes(filter) ? '' : 'none';
+
+    grid.querySelectorAll('.work-card').forEach(function (card) {
+      var types = (card.dataset.types || '').split(/\s+/);
+      card.hidden = filter !== 'all' && !types.includes(filter);
     });
-  })();
+  }
+
+  if (!window.beccaWorkFiltersInstalled) {
+    window.beccaWorkFiltersInstalled = true;
+
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest('.work-filter-bar a[data-filter]');
+      if (!link || event.defaultPrevented || event.button !== 0 ||
+          event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+      event.preventDefault();
+      event.stopPropagation();
+      window.history.pushState(null, '', link.href);
+      applyWorkFilter();
+    }, true);
+
+    window.addEventListener('popstate', applyWorkFilter);
+    document.addEventListener('DOMContentLoaded', applyWorkFilter);
+    document.addEventListener('hy-push-state-load', applyWorkFilter);
+  }
+
+  applyWorkFilter();
+})();
 </script>

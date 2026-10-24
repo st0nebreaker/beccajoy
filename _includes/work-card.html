@@ -1,7 +1,7 @@
 {% assign w = include.work %}
 <article
   class="work-card{% if w.featured %} work-card--featured{% endif %}"
-  data-types="{{ w.type }}"
+  data-types="{{ w.categories | join: ' ' | escape }}"
 >
   <a href="{{ w.url | relative_url }}" class="work-card-link" tabindex="-1" aria-hidden="true">
     <div class="work-card-thumb">
@@ -43,7 +43,7 @@
         <span class="work-card-org">{{ w.organization }}</span>
       {% endif %}
       <a href="{{ w.url | relative_url }}" class="work-card-cta">
-        View {% if w.type == "writing" %}Sample{% else %}Case Study{% endif %} &rarr;
+        View {% if w.type == "writing" %}Sample{% else %}Case Study{% endif %}
       </a>
     </div>
   </div>

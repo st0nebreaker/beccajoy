@@ -1,7 +1,6 @@
 ---
 layout: case-study
 title: Slalom_build Applicant Portal
-type: professional
 organization: Slalom_build
 role: UI/UX Design + Frontend Engineering
 year: 2021–2022
@@ -9,6 +8,7 @@ featured: false
 thumbnail: /assets/img/work/s-ats-5.png
 summary: >
   Designing and implementing responsive application and scheduling workflows for a multi-client applicant tracking platform.
+categories: [design, development]
 tools:
   - Vue
   - TypeScript

@@ -6,11 +6,13 @@ cover: false
 
 <div class="intro-block">
   <div class="intro-lead">
-    <p class="intro-tagline">UX / Design Engineer &amp; Project Manager</p>
+    <p class="intro-tagline">Product Designer &amp; UX / Frontend Engineer &amp; Project Manager</p>
     <p class="intro-bio">
-      I sit at an unusual junction: <strong>tech and nonprofits</strong>. Six years building 
-      user-facing software with React, Vue, TypeScript, and Figma layered on top of a decade 
-      inside mission-driven organizations: conservation, social impact, and community wellness.
+      I sit at an unusual junction: <strong>tech and nonprofits</strong>.
+      I bring six years of experience designing and building user-facing
+      software with React, Vue, TypeScript, and Figma, alongside a decade
+      in mission-driven organizations spanning conservation, social impact,
+      and community wellness.
     </p>
     <p class="intro-bio">
       That combination is the throughline of my work. I know what it’s like to need a polished, accessible, user-first product without a big

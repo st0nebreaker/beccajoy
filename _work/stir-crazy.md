@@ -7,6 +7,7 @@ summary: >-
   A cocktail discovery app for finding recipes, following mixing instructions, and keeping track of saved and tried drinks.
 role: "Product Designer, UX Engineer + Project Manager"
 organization: "Turing School of Software and Design"
+categories: [design, development, project]
 tools:
   - React
   - React Hooks

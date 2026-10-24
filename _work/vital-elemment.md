@@ -1,7 +1,6 @@
 ---
 layout: case-study
 title: Vital Element OS + application
-type: professional
 organization: Vital Element
 role: Product Designer / UX Engineer
 year: 2026–present
@@ -11,6 +10,7 @@ summary: >
   Designing high-fidelity interfaces and building production-ready 
   React/TypeScript components across 10+ product features for a 
   health and wellness technology platform.
+categories: [design, development, project]
 tools:
   - Figma
   - React
