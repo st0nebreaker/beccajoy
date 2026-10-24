@@ -83,7 +83,7 @@ cover: false
 {% include resume-entry.html
    company="Western Colorado Climbers' Coalition"
    role="Communications Lead"
-   period=""
+   period="2023 – 2025"
    bullets="Led marketing and communications across website, email, and social media channels to grow community engagement, mobilize volunteers, and strengthen public lands advocacy.|Co-produced and promoted a hybrid silent auction fundraiser benefiting a local SAR team, raising over $10,000 through donor communications, sponsorship outreach, and event promotion.|Managed CRM and donor communications platforms (HubSpot and BetterWorld) while supporting grassroots organizing, volunteer engagement, and community-centered campaigns."
 %}
 
