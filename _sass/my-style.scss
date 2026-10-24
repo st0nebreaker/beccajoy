@@ -1255,3 +1255,23 @@ a {
   font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.85);
 }
+
+.sidebar-art-credit {
+  display: none;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.25rem;
+  z-index: 2;
+  margin: 0;
+  max-width: calc(100% - 3rem);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#_drawer[opened] .sidebar-art-credit {
+  display: block;
+}
