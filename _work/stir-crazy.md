@@ -30,4 +30,4 @@ images:
 
 ## My contribution
 
-Contributed to design, React/TypeScript implementation, and project coordination for a cocktail discovery app. Helped build recipe search and saved-drink experiences, expand test coverage, and manage remote teamwork through shared planning and daily check-ins.
+Contributed to product design, UX engineering, and project management for a cocktail discovery app. Designed and built recipe search and saved-drink experiences using React and TypeScript, expanded test coverage, and managed shared project planning and remote team workflows.

@@ -8,9 +8,8 @@ featured: true
 featured_order: 3
 thumbnail: /assets/img/work/tf1.png
 summary: >
-  Shaped product strategy, UX design, and delivery
-  across features connecting trail users with 
-  stewardship organizations.
+  Shaped product strategy, UX design, and delivery for a platform
+  connecting trail users with stewardship organizations.
 categories: [design, project]
 tools:
   - Product roadmaps
@@ -33,4 +32,4 @@ images:
 
 ## My contribution
 
-Shaped product strategy, UX design, and delivery across 15+ conservation product features. Translated stakeholder needs into user flows and prioritized features, while managing roadmaps, backlogs, and team coordination.
+Shaped product strategy and product design for an outdoor stewardship platform. Translated stakeholder needs into user flows and prioritized features, while managing roadmaps, backlogs, project planning, and team workflows.

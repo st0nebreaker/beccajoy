@@ -28,4 +28,4 @@ images:
 
 ## My contribution
 
-Translated customer needs and product requirements into user flows and responsive interfaces for an employee education benefits platform. Contributed to project coordination, refined legacy frontend code, and resolved production UI issues.
+Translated customer needs and product requirements into user flows, then built responsive interfaces using React and Vue. Refactored legacy frontend code, resolved production UI issues, and contributed to project management through requirements definition, task delegation, planning, and delivery tracking.

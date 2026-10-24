@@ -41,4 +41,4 @@ images:
 
 ## My contribution
 
-Contributed to UX design, React/TypeScript development, and project management for a cycle-tracking app. Helped turn daily temperature logs into calendar views and visual reports, while organizing tasks and collaborating across frontend and backend teams.
+Contributed to product design, UX engineering, and project management for a cycle-tracking app. Designed and built daily logging, calendar views, and visual reports using React and TypeScript, while managing project tasks and collaborating across frontend and backend teams.

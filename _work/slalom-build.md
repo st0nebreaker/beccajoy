@@ -29,4 +29,4 @@ images:
 
 ## My contribution
 
-Designed and built responsive application workflows and reusable Vue/TypeScript components, including localized calendars and scheduling. Expanded testing and documentation, contributing to a 13% reduction in user-facing bugs.
+Designed user flows and responsive interfaces for a multi-client applicant portal, then built reusable Vue/TypeScript components, including localized calendars and scheduling. Expanded testing and documentation, contributing to a 13% reduction in user-facing bugs.
