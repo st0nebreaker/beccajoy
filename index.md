@@ -6,7 +6,8 @@ cover: false
 
 <div class="intro-block">
   <div class="intro-lead">
-    <p class="intro-tagline">Product Designer &amp; UX / Frontend Engineer &amp; Project Manager</p>
+    <img src="{{ '/assets/img/becca-portrait.jpg' | relative_url }}" alt="Becca Steinbrecher" class="intro-portrait">
+    <p class="intro-tagline">Product Designer • UX / Frontend Engineer • Project Manager</p>
     <p class="intro-bio">
       I sit at an unusual junction: <strong>tech and nonprofits</strong>.
       I bring six years of experience designing and building user-facing

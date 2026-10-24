@@ -968,3 +968,65 @@ a {
   padding: 0.5rem 0;
   margin: 0;
 }
+
+.resume-section { margin-top: 1.25rem; }
+.resume-section + .resume-section { margin-top: 1.5rem; padding-top: 1rem; }
+.resume-category { margin: 0 0 0.75rem; padding-bottom: 0.35rem; }
+.resume-category-note,
+.resume-instruction { margin-bottom: 0.75rem; }
+
+.resume-entry { padding: 1rem 0; }
+.resume-entry-header { gap: 0.75rem; }
+.resume-entry[open] .resume-bullets { margin-top: 0.75rem; }
+.resume-bullets li { margin-bottom: 0.4rem; line-height: 1.6; }
+
+.skills-grid { margin-top: 0.75rem; gap: 16px; }
+.skill-group { padding: 1rem; }
+.skill-group h4 { margin: 0 0 0.5rem; }
+
+.education-list { margin-top: 0.75rem; gap: 16px; }
+.education-item { padding: 1rem 1.25rem; }
+
+.intro-block { max-width: none; }
+.intro-lead { display: flow-root; }
+
+.intro-lead .intro-portrait {
+  float: right;
+  display: block;
+  width: 140px;
+  max-width: 30%;
+  height: auto;
+  margin: 0 0 1rem 1.5rem;
+  border: 4px solid #fff;
+  border-radius: 14px;
+  box-shadow: 8px 8px 0 var(--bs-parchment);
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .intro-lead .intro-portrait {
+    float: none;
+    width: 112px;
+    max-width: 100%;
+    margin: 0 0 1.25rem;
+  }
+}
+
+.skill-group--secondary {
+  padding: 0.65rem 0.8rem;
+  background: transparent;
+  border-color: var(--bs-rule);
+  box-shadow: none;
+}
+
+.skill-group--secondary h4 {
+  color: var(--bs-warm-grey);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.35rem;
+}
+
+.skill-group--secondary p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}

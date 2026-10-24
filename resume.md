@@ -151,8 +151,24 @@ cover: false
     <p>Product Strategy, Feature Definition, Roadmapping, Requirements, Prioritization, Backlog Management, Agile/Scrum, Cross-Functional Coordination, Jira, Asana, Confluence</p>
   </div>
   <div class="skill-group">
-    <h4>Cloud + Ops</h4>
-    <p>Azure, AWS, Cloud-Hosted Services, WordPress, MailChimp, Salesforce, HubSpot, Canva, Photoshop, Illustrator, Tableau, Power BI</p>
+    <h4>Cloud</h4>
+    <p>Azure, AWS, Cloud-Hosted Services</p>
+  </div>
+  <div class="skill-group--secondary">
+    <h4>Operations + Program Coordination</h4>
+    <p>Cross-Functional Collaboration, Project + Workflow Management, Scheduling + Logistics, Reporting + Metrics Tracking, Budget Support</p>
+  </div>
+  <div class="skill-group--secondary">
+    <h4>Data + CRM Management</h4>
+    <p>Salesforce, HubSpot, Database Management, Reporting + Analytics, Tableau, Power BI, Record-Keeping, Confidential File Management, Gift Tracking + Acknowledgements</p>
+  </div>
+  <div class="skill-group--secondary">
+    <h4>Communications</h4>
+    <p>Client + Vendor Relations, Internal Stakeholder Coordination, Presentation Preparation, MailChimp</p>
+  </div>
+  <div class="skill-group--secondary">
+    <h4>Digital + Productivity Tools</h4>
+    <p>Microsoft Office Suite, Google Workspace, Airtable, Notion, Canva, Adobe Creative Suite, Photoshop, Illustrator, WordPress</p>
   </div>
 </div>
 ---
