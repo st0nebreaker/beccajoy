@@ -147,7 +147,7 @@ a {
 // ── Intro Block ─────────────────────────────────────────────
 .intro-block {
   max-width: 680px;
-  padding: var(--bs-space-xl) 0 var(--bs-space-lg);
+  padding: var(--bs-space-md) 0 var(--bs-space-lg);
 }
 
 .intro-tagline {
@@ -174,7 +174,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: var(--bs-space-md);
-  margin-top: var(--bs-space-xl);
+  margin-top: var(--bs-space-md);
 }
 
 // ── Work Type Badges ────────────────────────────────────────
@@ -214,8 +214,8 @@ a {
 .featured-work-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--bs-space-xl);
-  margin: var(--bs-space-lg) 0 var(--bs-space-xl);
+  gap: var(--bs-space-md);
+  margin: var(--bs-space-lg) 0 var(--bs-space-md);
 }
 
 .section-cta {
@@ -227,7 +227,7 @@ a {
 .work-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: var(--bs-space-xl);
+  gap: var(--bs-space-md);
   margin-top: var(--bs-space-lg);
 }
 
@@ -388,11 +388,11 @@ a {
 
 // ── Resume Components ────────────────────────────────────────
 .resume-section {
-  margin-top: var(--bs-space-xl);
+  margin-top: var(--bs-space-md);
 
   & + & {
     margin-top: var(--bs-space-2xl);
-    padding-top: var(--bs-space-xl);
+    padding-top: var(--bs-space-md);
     border-top: 1px solid var(--bs-rule);
   }
 }
@@ -410,7 +410,7 @@ a {
   font-size: 0.9rem;
   font-style: italic;
   color: var(--bs-warm-grey);
-  margin-bottom: var(--bs-space-xl);
+  margin-bottom: var(--bs-space-md);
   line-height: 1.6;
 }
 
@@ -610,9 +610,9 @@ a {
 }
 
 .case-study-header {
-  padding-bottom: var(--bs-space-xl);
+  padding-bottom: var(--bs-space-md);
   border-bottom: 1px solid var(--bs-rule);
-  margin-bottom: var(--bs-space-xl);
+  margin-bottom: var(--bs-space-md);
 }
 
 .case-study-meta-row {
@@ -678,7 +678,7 @@ a {
 }
 
 .case-study-hero {
-  margin: var(--bs-space-xl) 0;
+  margin: var(--bs-space-md) 0;
   border-radius: var(--bs-radius-md);
   overflow: hidden;
   aspect-ratio: 16 / 9;
@@ -718,15 +718,15 @@ a {
 
 .case-study-section {
   margin-top: var(--bs-space-2xl);
-  padding-top: var(--bs-space-xl);
+  padding-top: var(--bs-space-md);
   border-top: 1px solid var(--bs-rule);
 
   &--outcome {
     background: var(--bs-parchment);
-    padding: var(--bs-space-xl);
+    padding: var(--bs-space-md);
     border-radius: var(--bs-radius-md);
     border-top: none;
-    margin-top: var(--bs-space-xl);
+    margin-top: var(--bs-space-md);
 
     h2 {
       color: var(--bs-sage);
@@ -769,7 +769,7 @@ a {
   flex-wrap: wrap;
   gap: var(--bs-space-md);
   margin-top: var(--bs-space-2xl);
-  padding-top: var(--bs-space-xl);
+  padding-top: var(--bs-space-md);
   border-top: 1px solid var(--bs-rule);
 }
 
