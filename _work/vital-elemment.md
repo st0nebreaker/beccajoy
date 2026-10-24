@@ -8,7 +8,7 @@ featured: true
 featured_order: 1
 thumbnail: /assets/img/work/ve1.png
 summary: >
-  Designing high-fidelity interfaces and building React/TypeScript components across 10+ features for a health and wellness technology platform.
+  Design high-fidelity interfaces and building React/TypeScript components across 10+ features for a health and wellness technology platform.
 categories: [design, development, project]
 tools:
   - Figma
