@@ -1,6 +1,5 @@
 ---
 layout: case-study
-type: collaborative
 year: "2020"
 title: "Lono"
 summary: >-
