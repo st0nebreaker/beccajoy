@@ -1,6 +1,9 @@
 # Site settings
 title: Becca Joy
 tagline: Portfolio
+cover: false
+image:
+  path: /assets/img/beccajoy-social-preview.jpg
 slug: Product Designer · UX / Front End Engineer · Project Manager
 description: >
   Designer, engineer, and project manager connecting tech and mission-driven causes
