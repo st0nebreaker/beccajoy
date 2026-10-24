@@ -91,7 +91,7 @@ layout: base
     {% if page.images %}
     <section class="case-study-section">
       <h2>Gallery</h2>
-      <div class="case-study-gallery">
+        <div class="case-study-gallery" tabindex="0" role="region" aria-label="Project screenshots">
         {% for img in page.images %}
           <figure class="case-study-figure">
             <img

@@ -30,4 +30,7 @@ images:
   - src: /assets/img/work/tio2.jpg
     alt: "Tuition.io dashboard showing employer student loan contributions"
     caption: "A dashboard presenting contribution history and projected loan repayment impact."
+  - src: /assets/img/work/tio1.jpg
+    alt: "Business valuation dashboard showing enterprise value, asset breakdown, and equity value"
+    caption: "A valuation dashboard organizing financial summaries, asset composition, and supporting calculation details."
 ---
