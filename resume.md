@@ -12,7 +12,7 @@ cover: false
 
 <div class="resume-section" markdown="1">
 
-### Software &amp; Product
+### Software + Product
 {:.resume-category}
 
 {% include resume-entry.html
