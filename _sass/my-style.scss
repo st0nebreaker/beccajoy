@@ -1001,6 +1001,8 @@ a {
   border-radius: 14px;
   box-shadow: 8px 8px 0 var(--bs-parchment);
   box-sizing: border-box;
+  transform: scaleX(-1);
+  box-shadow: -8px 8px 0 var(--bs-parchment);
 }
 
 @media (max-width: 600px) {
