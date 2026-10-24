@@ -190,7 +190,7 @@ cover: false
   <div class="education-item">
     <div class="education-meta">
       <span class="education-degree">Climbing Wall Instructor</span>
-      <span class="education-year">2017</span>
+      <span class="education-year">2015</span>
     </div>
     <span class="education-school">American Mountain Guide Association (AMGA)</span>
     <p class="education-note">Led belay, lead climbing instructional courses, yoga classses, and managed staff at 3 gyms over 8 years.</p>
