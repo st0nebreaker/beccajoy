@@ -15,7 +15,7 @@ description: >
     <p class="intro-bio">
       I connect tech and mission-driven work. I bring six years designing and 
       building software and a decade across conservation, social impact, 
-      and community wellness. I’m looking for opportunities with mission-driven organizations or products and services rooted in lifestyle, culture, and community.
+      and community wellness.
     </p>
     <p class="intro-bio">
       I know what it’s like to need a polished, accessible, user-first product 
@@ -23,6 +23,9 @@ description: >
       those constraints, making creative problem-solving essential. I bring 
       product strategy, project management, design, and front end development 
       to help teams turn ideas into thoughtful, practical, and engaging products.
+    </p>
+    <p class="intro-bio">
+      I’m looking for opportunities with mission-driven organizations or products and services rooted in lifestyle, culture, and community.
     </p>
     <div class="intro-cta">
       <a href="/work/" class="btn btn--outline">See My Work</a>
