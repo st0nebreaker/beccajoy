@@ -159,12 +159,12 @@ cover: false
     <p>Cross-Functional Collaboration, Project + Workflow Management, Scheduling + Logistics, Reporting + Metrics Tracking, Budget Tracking + Reporting</p>
   </div>
   <div class="skill-group--secondary">
-    <h4>Data + CRM Management</h4>
-    <p>Salesforce, HubSpot, Database Management, Reporting + Analytics, Tableau, Power BI, Record-Keeping, Confidential File Management, Gift Tracking + Acknowledgements</p>
-  </div>
-  <div class="skill-group--secondary">
     <h4>Communications</h4>
     <p>Client + Vendor Relations, Internal Stakeholder Coordination, Presentation Preparation, MailChimp</p>
+  </div>
+  <div class="skill-group--secondary">
+    <h4>Data + CRM Management</h4>
+    <p>Salesforce, HubSpot, Database Management, Reporting + Analytics, Tableau, Power BI, Record-Keeping, Confidential File Management, Gift Tracking + Acknowledgements</p>
   </div>
   <div class="skill-group--secondary">
     <h4>Productivity Tools</h4>
