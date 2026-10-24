@@ -115,13 +115,6 @@ cover: false
    bullets="Scheduled interpreters for refugee clients navigating healthcare, legal, and social services to support their settlement into a new country.|Supported program operations, including payroll and volunteer coordination."
 %}
 
-{% include resume-entry.html
-   company="Climbing Gyms (3 locations)"
-   role="Staff Lead · Climbing + Yoga Instructor · Route Setter · Youth Coach"
-   period=""
-   bullets="Instructed climbing and yoga classes and coached competitive youth teams.|Managed front desk operations, set and created new climbing routes weekly."
-%}
-
 </div>
 
 ---
