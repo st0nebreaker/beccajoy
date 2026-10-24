@@ -1,13 +1,14 @@
-{% comment %}
-<!--
-Using `preload` so that page rendering doesn't get blocked.
-Fill in `href`. You may have to adjust `as` and `onload`/`rel`, depending on content.
--->
-<link href="<path/to/content.css>" rel="preload" as="style" onload="this.rel='stylesheet'">
+{% assign preview_image = page.image.path | default: page.thumbnail | default: '/assets/img/beccajoy-social-preview.jpg' %}
+{% assign preview_description = page.description | default: page.summary | default: site.description %}
 
-<!--
-Fallback in case JavaScript isn't enabled.
-Fill in `href`. You may have to adjust `rel`.
--->
-<noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
-{% endcomment %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{{ preview_description | strip_html | strip_newlines | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ preview_image | absolute_url }}">
+<meta property="og:image:alt" content="{{ page.title | default: site.title | escape }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+<meta name="twitter:description" content="{{ preview_description | strip_html | strip_newlines | escape }}">
+<meta name="twitter:image" content="{{ preview_image | absolute_url }}">
