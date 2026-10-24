@@ -18,7 +18,7 @@ tools:
   - React Testing Library
   - Trello
   - Git
-thumbnail: /assets/img/work/sc-1.png
+thumbnail: /assets/img/work/sc-2.png
 
 challenge: >-
   Turn a collection of 100+ cocktail recipes into an approachable experience for both casual browsing and searching by a specific drink or ingredient.

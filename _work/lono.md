@@ -22,7 +22,7 @@ tools:
   - GitHub Projects
   - Travis CI
   - Heroku
-thumbnail: /assets/img/work/l1.png
+thumbnail: /assets/img/work/l2.png
 
 challenge: >-
   Make daily cycle tracking straightforward and help users understand information collected over time through calendar views and temperature reports.
