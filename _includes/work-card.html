@@ -1,92 +1,40 @@
----
-layout: base
----
-
-<article class="case-study">
-  <header class="case-study-header">
-    <div class="case-study-meta-row">
-      {% if page.type %}
-        <span class="work-type-badge work-type-badge--{{ page.type }}">{{ page.type | capitalize }}</span>
+{% assign w = include.work %}
+<article class="work-card{% if w.featured %} work-card--featured{% endif %}" data-types="{{ w.categories | join: ' ' | escape }}">
+  <a href="{{ w.url | relative_url }}" class="work-card-link" tabindex="-1" aria-hidden="true">
+    <div class="work-card-thumb">
+      {% if w.thumbnail %}
+        <img src="{{ w.thumbnail | relative_url }}" alt="{{ w.title | escape }}" loading="lazy" class="work-card-img">
+      {% else %}
+        <div class="work-card-thumb--empty">
+          <span class="work-card-thumb-label">{{ w.type | default: "work" | upcase }}</span>
+        </div>
       {% endif %}
-      {% if page.year %}
-        <span class="case-study-year">{{ page.year }}</span>
+    </div>
+  </a>
+
+  <div class="work-card-body">
+    <div class="work-card-meta">
+      {% if w.type %}
+        <span class="work-type-badge work-type-badge--{{ w.type }}">{{ w.type | capitalize }}</span>
+      {% endif %}
+      {% if w.year %}
+        <span class="work-card-year">{{ w.year }}</span>
       {% endif %}
     </div>
 
-    <h1 class="case-study-title">{{ page.title }}</h1>
+    <h3 class="work-card-title">
+      <a href="{{ w.url | relative_url }}">{{ w.title }}</a>
+    </h3>
 
-    {% if page.summary %}
-      <p class="case-study-summary">{{ page.summary }}</p>
+    {% if w.summary %}
+      <p class="work-card-summary">{{ w.summary }}</p>
     {% endif %}
 
-    <dl class="case-study-details">
-      {% if page.role %}
-        <div>
-          <dt>Role</dt>
-          <dd>{{ page.role }}</dd>
-        </div>
+    <div class="work-card-footer">
+      {% if w.organization %}
+        <span class="work-card-org">{{ w.organization }}</span>
       {% endif %}
-      {% if page.organization %}
-        <div>
-          <dt>Organization</dt>
-          <dd>{{ page.organization }}</dd>
-        </div>
-      {% endif %}
-      {% if page.tools %}
-        <div>
-          <dt>Tools</dt>
-          <dd>{{ page.tools | join: ", " }}</dd>
-        </div>
-      {% endif %}
-      {% if page.link %}
-        <div>
-          <dt>Link</dt>
-          <dd><a href="{{ page.link }}" target="_blank" rel="noopener">View Sample</a></dd>
-        </div>
-      {% endif %}
-    </dl>
-  </header>
-
-  {% if page.thumbnail %}
-    <div class="case-study-hero">
-      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }} — hero image" class="case-study-hero-img" loading="lazy">
+      <a href="{{ w.url | relative_url }}" class="work-card-cta">View Project</a>
     </div>
-  {% else %}
-    <div class="case-study-hero case-study-hero--empty">
-      <span>Image coming soon</span>
-    </div>
-  {% endif %}
-
-  <div class="case-study-body">
-    {{ content }}
-
-    {% if page.images %}
-      <section class="case-study-section">
-        <h2>Gallery</h2>
-        <div class="gallery-wrap">
-          <div class="case-study-gallery" tabindex="0" role="region" aria-label="Project screenshots">
-            {% for img in page.images %}
-              <figure class="case-study-figure">
-                <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
-                {% if img.caption %}
-                  <figcaption>{{ img.caption }}</figcaption>
-                {% endif %}
-              </figure>
-            {% endfor %}
-          </div>
-          <svg class="gallery-scroll-hint" width="26" height="16" viewBox="0 0 26 16" fill="none" aria-hidden="true">
-            <path d="M2 8H23M17 2L23 8L17 14" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-      </section>
-    {% endif %}
   </div>
-
-  <footer class="case-study-footer">
-    <a href="{{ '/work/' | relative_url }}" class="btn btn--outline">&larr; All Work</a>
-    {% assign next_item = site.work | where_exp: "item", "item.url != page.url" | first %}
-    {% if next_item %}
-      <a href="{{ next_item.url | relative_url }}" class="btn btn--primary">Next Project &rarr;</a>
-    {% endif %}
-  </footer>
 </article>
