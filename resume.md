@@ -199,6 +199,6 @@ cover: false
       <span class="education-year"></span>
     </div>
     <span class="education-school">American Mountain Guide Association (AMGA)</span>
-    <p class="education-note">Led belay and lead climbing instructional courses at 2 gyms over 4 years.</p>
+    <p class="education-note">Led belay, lead climbing instructional courses, yoga classses, and managed staff at 3 gyms over 8 years.</p>
   </div>
 </div>
