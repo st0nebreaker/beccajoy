@@ -15,7 +15,7 @@ description: >
     <p class="intro-bio">
       I connect tech and mission-driven work. I bring six years designing and 
       building software and a decade across conservation, social impact, 
-      and community wellness.
+      and community wellness. I’m looking for opportunities with mission-driven organizations or products and services rooted in lifestyle, culture, and community.
     </p>
     <p class="intro-bio">
       I know what it’s like to need a polished, accessible, user-first product 
