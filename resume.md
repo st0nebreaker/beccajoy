@@ -174,18 +174,18 @@ cover: false
 <div class="education-list">
   <div class="education-item">
     <div class="education-meta">
-      <span class="education-degree">BS Childhood Development</span>
-      <span class="education-year">2015</span>
-    </div>
-    <span class="education-school">Baylor University</span>
-  </div>
-  <div class="education-item">
-    <div class="education-meta">
       <span class="education-degree">Front End Engineering Program</span>
       <span class="education-year">2020</span>
     </div>
     <span class="education-school">Turing School of Software + Design</span>
     <p class="education-note">9-month full-time immersive program (60 hrs/week) in modern web development and collaborative engineering.</p>
+  </div>
+  <div class="education-item">
+    <div class="education-meta">
+      <span class="education-degree">BS Childhood Development</span>
+      <span class="education-year">2015</span>
+    </div>
+    <span class="education-school">Baylor University</span>
   </div>
   <div class="education-item">
     <div class="education-meta">

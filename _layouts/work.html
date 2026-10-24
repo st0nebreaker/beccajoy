@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 ---
 
 <style>
@@ -15,6 +15,12 @@ layout: page
     .work-grid, .featured-work-grid { grid-template-columns: 1fr; }
   }
 </style>
+
+{% capture work_heading %}
+## {{ page.title }} {#work}
+{:.section-heading}
+{% endcapture %}
+{{ work_heading | markdownify }}
 
 {{ content }}
 
