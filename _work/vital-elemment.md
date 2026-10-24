@@ -5,6 +5,7 @@ organization: Vital Element
 role: Product Designer / UX Engineer
 year: 2026–present
 featured: true
+featured_order: 1
 thumbnail: /assets/img/work/ve1.png
 summary: >
   Designing high-fidelity interfaces and building production-ready 

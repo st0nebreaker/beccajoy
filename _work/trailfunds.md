@@ -5,6 +5,7 @@ organization: TrailFunds
 role: Product Designer + Project Manager
 year: 2023–2025
 featured: true
+featured_order: 3
 thumbnail: /assets/img/work/tf1.png
 summary: >
   Shaped product strategy, UX design, and delivery across 15+ initiatives for a conservation platform connecting trail users with stewardship organizations.

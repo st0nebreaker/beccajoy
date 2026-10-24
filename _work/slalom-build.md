@@ -4,7 +4,8 @@ title: Slalom_build Applicant Portal
 organization: Slalom_build
 role: UI/UX Design + Front End Engineering
 year: 2021–2022
-featured: false
+featured: true
+featured_order: 2
 thumbnail: /assets/img/work/s-ats-5.png
 summary: >
   Designing and implementing responsive application and scheduling workflows for a multi-client applicant tracking platform.

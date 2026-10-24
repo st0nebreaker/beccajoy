@@ -6,7 +6,6 @@ summary: >-
   Translating customer and product requirements into responsive interfaces for an employer-sponsored education benefits platform.
 role: "UX Engineer + Project Manager"
 organization: "Blue Ridge Digital / Tuition.io"
-featured: true
 categories: [development, project]
 tools:
   - React

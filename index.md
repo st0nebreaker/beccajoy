@@ -31,10 +31,10 @@ cover: false
 {:.section-heading}
 
 <div class="featured-work-grid">
-{% assign featured = site.work | where: "featured", true | limit: 3 %}
-{% for item in featured %}
-  {% include work-card.html work=item %}
-{% endfor %}
+  {% assign featured = site.work | where: "featured", true | sort: "featured_order" %}
+  {% for item in featured limit:3 %}
+    {% include work-card.html work=item %}
+  {% endfor %}
 </div>
 
 <div class="section-cta">
