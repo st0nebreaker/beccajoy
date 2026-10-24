@@ -22,7 +22,7 @@ layout: page
   <a href="{{ '/work/' | relative_url }}" data-filter="all">All</a>
   <a href="{{ '/work/' | relative_url }}?filter=design" data-filter="design">Product Designer</a>
   <a href="{{ '/work/' | relative_url }}?filter=development" data-filter="development">UX Engineer</a>
-  <a href="{{ '/work/' | relative_url }}?filter=product" data-filter="product">Project Manager</a>
+  <a href="{{ '/work/' | relative_url }}?filter=project" data-filter="project">Project Manager</a>
 </nav>
 
 <div class="work-grid" id="work-grid">
@@ -39,7 +39,7 @@ layout: page
     if (!grid) return;
 
     var filter = new URLSearchParams(window.location.search).get('filter') || 'all';
-    if (!['all', 'design', 'development', 'product'].includes(filter)) filter = 'all';
+    if (!['all', 'design', 'development', 'project'].includes(filter)) filter = 'all';
 
     document.querySelectorAll('.work-filter-bar a[data-filter]').forEach(function (link) {
       var active = link.dataset.filter === filter;
