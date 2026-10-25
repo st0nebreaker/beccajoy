@@ -13,9 +13,8 @@ description: >
     <img src="{{ '/assets/img/becca-portrait.png' | relative_url }}" alt="Becca Steinbrecher" class="intro-portrait">
     <p class="intro-tagline">Product Designer, UX / Front End Engineer, Project Manager</p>
     <p class="intro-bio">
-      I connect tech and mission-driven work. I bring six years designing and 
-      building software and a decade across conservation, social impact, 
-      and community wellness.
+      I sit at a unique junction between tech and mission-driven work. I bring six years designing and 
+      building software and a decade across conservation, social impact, and community wellness.
     </p>
     <p class="intro-bio">
       I know what it’s like to need a polished, accessible, user-first product 
