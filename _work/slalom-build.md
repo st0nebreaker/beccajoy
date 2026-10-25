@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: Slalom_build – Applicant Portal
+title: Slalom_build – Applicant Portal/Applicant Tracking System
 organization: Slalom_build
 role: UI/UX Design + Front End Engineering
 year: 2021–2022
