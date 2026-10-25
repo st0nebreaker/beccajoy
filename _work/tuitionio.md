@@ -1,7 +1,7 @@
 ---
 layout: case-study
-year: "2020–2021"
-title: "Tuition.io"
+year: 2020–2021
+title: Tuition.io – Education Benefits Platform
 summary: >-
   Translated customer needs and product requirements into responsive 
   interfaces for an employee education benefits platform.

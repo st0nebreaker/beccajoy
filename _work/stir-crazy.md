@@ -1,7 +1,7 @@
 ---
 layout: case-study
-year: "2020"
-title: "Stir Crazy"
+year: 2020
+title: Stir Crazy – Cocktail Discovery App
 summary: >-
   A cocktail discovery app for finding recipes, mixing drinks, and saving favorites.
 role: "Product Designer, UX Engineer + Project Manager"

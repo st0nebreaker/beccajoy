@@ -1,7 +1,7 @@
 ---
 layout: case-study
-year: "2020"
-title: "Lono"
+year: 2020
+title: Lono – Cycle-Tracking App
 summary: >-
   A cycle-tracking app bringing daily temperature logs, 
   calendar history, and reports together.
