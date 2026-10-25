@@ -3,8 +3,7 @@ layout: case-study
 year: 2020
 title: Lono – Cycle-Tracking App
 summary: >-
-  A cycle-tracking app bringing daily temperature logs, 
-  calendar history, and reports together.
+  Designed and built React/TypeScript interfaces for daily logging, calendar views, and reports, while managing project planning and delivery
 role: "Product Designer, UX Engineer + Project Manager"
 organization: "Turing School of Software and Design"
 categories: [design, development, project]
