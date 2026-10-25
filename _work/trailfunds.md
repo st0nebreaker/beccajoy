@@ -8,8 +8,7 @@ featured: true
 featured_order: 3
 thumbnail: /assets/img/work/tf1.png
 summary: >
-  Shaped product strategy, UX design, and delivery for a platform
-  connecting trail users with stewardship organizations.
+  A stewardship platform connecting trail users with conservation organizations through volunteering, donations, and trail engagement
 categories: [design, project]
 tools:
   - Product roadmaps

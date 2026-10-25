@@ -8,8 +8,7 @@ featured: true
 featured_order: 1
 thumbnail: /assets/img/work/ve1.png
 summary: >
-  Design user experiences and building React/TypeScript interfaces
-  for a wellness app and chamber operating system.
+  A wellness app and chamber operating system for discovering protocols, booking sessions, and personalizing the in-chamber wellness experience
 categories: [design, development, project]
 tools:
   - Figma

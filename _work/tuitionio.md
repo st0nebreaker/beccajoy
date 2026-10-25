@@ -3,8 +3,7 @@ layout: case-study
 year: 2020–2021
 title: Tuition.io – Education Benefits Platform
 summary: >-
-  Translated customer needs and product requirements into responsive 
-  interfaces for an employee education benefits platform.
+  An employee education benefits platform for managing student loan contributions and tuition assistance
 role: "UX Engineer + Project Manager"
 organization: "Blue Ridge Digital / Tuition.io"
 categories: [development, project]

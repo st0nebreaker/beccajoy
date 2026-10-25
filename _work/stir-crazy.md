@@ -3,7 +3,7 @@ layout: case-study
 year: 2020
 title: Stir Crazy – Cocktail Discovery App
 summary: >-
-  Designed and built React/TypeScript interfaces for cocktail discovery and saved recipes, while managing project tasks and team workflows
+  A cocktail discovery app for finding recipes, following mixing instructions, and saving favorite drinks
 role: "Product Designer, UX Engineer + Project Manager"
 organization: "Turing School of Software and Design"
 categories: [design, development, project]
