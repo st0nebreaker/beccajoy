@@ -85,8 +85,5 @@ layout: base
   <footer class="case-study-footer">
     <a href="{{ '/work/' | relative_url }}" class="btn btn--outline">&larr; All Work</a>
     {% assign next_item = site.work | where_exp: "item", "item.url != page.url" | first %}
-    {% if next_item %}
-      <a href="{{ next_item.url | relative_url }}" class="btn btn--primary">Next Project &rarr;</a>
-    {% endif %}
   </footer>
 </article>
