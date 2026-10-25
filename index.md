@@ -25,7 +25,7 @@ description: >
       to help teams turn ideas into thoughtful, practical, and engaging products.
     </p>
     <p class="intro-bio">
-      I’m looking for opportunities with mission-driven organizations or products and services rooted in lifestyle, culture, and community.
+      I’m looking for opportunities to work on products and services that are mission-driven or rooted in lifestyle, culture, and community.
     </p>
     <div class="intro-cta">
       <a href="/work/" class="btn btn--outline">See My Work</a>
