@@ -2,13 +2,13 @@
 {% assign preview_description = page.description | default: page.summary | default: site.description %}
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Becca Joy • Design, Engineering + Project Management">
+<meta property="og:title" content="Becca Joy   •   Design, Engineering + Project Management">
 <meta property="og:description" content="{{ preview_description | strip_html | strip_newlines | escape }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:image" content="{{ preview_image | absolute_url }}">
 <meta property="og:image:alt" content="{{ page.title | default: site.title | escape }}">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Becca Joy • Design, Engineering + Project Management">
+<meta name="twitter:title" content="Becca Joy   •   Design, Engineering + Project Management">
 <meta name="twitter:description" content="{{ preview_description | strip_html | strip_newlines | escape }}">
 <meta name="twitter:image" content="{{ preview_image | absolute_url }}">
