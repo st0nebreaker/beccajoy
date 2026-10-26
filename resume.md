@@ -26,7 +26,7 @@ cover: false
    role="Product Designer / UX Engineer"
    period="Mar 2026 – Present"
    open=true
-   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Use AI tools and agent-based workflows for discovery, research, design exploration, prototyping, documentation, and development.|Partner with product and engineering to shape product direction and manage requirements, feature prioritization, scope, and delivery planning."
+   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Use AI tools and agent-based workflows for discovery, research, design exploration, prototyping, documentation, and development.|Help shape product strategy and direction through research, discovery, and planning discussions, using AI tools and agent-based workflows across design and development.|Manage project planning and delivery with product and engineering, refining task definitions, requirements, feature priorities, and scope."
 %}
 
 {% include resume-entry.html

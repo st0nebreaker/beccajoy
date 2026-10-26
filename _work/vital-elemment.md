@@ -31,4 +31,4 @@ images:
 
 ## My contribution
 
-Designed user flows, interfaces, and interaction patterns for the Vital Element app and chamber experience, then implemented them in React and TypeScript. Helped shape product strategy and direction through research and planning discussions. Conducted project management fine tuning task definition, requirements, feature scope, and delivery planning with product and engineering.
+Designed user flows, interfaces, and interaction patterns for the Vital Element app and chamber experience, then implemented them in React and TypeScript. Helped shape product strategy and direction through research and planning discussions. Managed project planning and delivery with product and engineering, refining task definitions, requirements, and feature scope.
