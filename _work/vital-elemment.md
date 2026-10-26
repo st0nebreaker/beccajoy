@@ -8,7 +8,7 @@ featured: true
 featured_order: 1
 thumbnail: /assets/img/work/ve1.png
 summary: >
-  A wellness app and chamber operating system for discovering protocols, booking sessions, and personalizing the in-chamber wellness experience
+  A wellness app and chamber operating system for discovering clinician-designed protocols, booking sessions, and personalizing the wellness experience in the accompanying chamber
 categories: [design, development, project]
 tools:
   - Figma
@@ -16,7 +16,6 @@ tools:
   - TypeScript
   - SCSS
   - AI-assisted design and development
-  - Storybook
 
 images:
   - src: /assets/img/work/ve2.png
@@ -32,4 +31,4 @@ images:
 
 ## My contribution
 
-Designed user flows, interfaces, and interaction patterns for the Vital Element app and chamber experience, then implemented them in React and TypeScript. Contributed to product direction and managed requirements, feature scope, and delivery planning with product and engineering.
+Designed user flows, interfaces, and interaction patterns for the Vital Element app and chamber experience, then implemented them in React and TypeScript. Helped shape product strategy and direction through research and planning discussions. Conducted project management fine tuning task definition, requirements, feature scope, and delivery planning with product and engineering.
