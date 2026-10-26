@@ -16,6 +16,7 @@ tools:
   - TypeScript
   - SCSS
   - AI-assisted design and development
+link: https://vitalelement.co/
 
 images:
   - src: /assets/img/work/ve2.png

@@ -16,6 +16,7 @@ tools:
   - Reusable UI components
   - Front end testing
   - Technical documentation
+link: https://jobs.slalom.com/en_US/careersmarketplace
 
 images:
   - src: /assets/img/work/s-ats-3.png
