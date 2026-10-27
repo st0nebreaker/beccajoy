@@ -3,7 +3,7 @@ layout: case-study
 title: TrailFunds – Stewardship Platform
 organization: TrailFunds
 role: Product Designer + Project Manager
-year: 2024–2026
+year: 2025–2026
 featured: true
 featured_order: 3
 thumbnail: /assets/img/work/tf1.png
