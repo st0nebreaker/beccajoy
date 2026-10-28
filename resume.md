@@ -23,7 +23,7 @@ cover: false
 
 {% include resume-entry.html
    company="Vital Element"
-   role="Product Designer / UX Engineer"
+   role="Design Engineer + Project Manager"
    period="Mar 2026 – Present"
    open=true
    bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Use AI tools and agent-based workflows for discovery, research, design exploration, prototyping, documentation, and development.|Help shape product strategy and direction through research, discovery, and planning discussions, using AI tools and agent-based workflows across design and development.|Manage project planning and delivery with product and engineering, refining task definitions, requirements, feature priorities, and scope."
@@ -77,7 +77,7 @@ cover: false
 
   {% include resume-entry.html
     company="Vital Element"
-    role="Product Designer, Project Manager"
+    role=Design Engineer + Project Manager"
     period="2026 – Present"
     open=true
     bullets="Managed and optimized CRM and outreach systems (HubSpot + Apollo) to support audience growth, campaign execution, lead generation, and cross-functional communications workflows.|Supported brand visibility and engagement initiatives through marketing operations, reporting, process improvements, and coordinated campaign support.|Contributed to website and application front-end improvements that strengthened user experience, digital presence, and marketing effectiveness."
