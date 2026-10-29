@@ -2,7 +2,7 @@
 layout: case-study
 title: Vital Element – Wellness App + Chamber OS
 organization: Vital Element
-role: Product Designer / UX Engineer + Project Manager
+role: Designer Engineer + Project Manager
 year: 2026–present
 featured: true
 featured_order: 1
