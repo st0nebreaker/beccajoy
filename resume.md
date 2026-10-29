@@ -77,7 +77,7 @@ cover: false
 
   {% include resume-entry.html
     company="Vital Element"
-    role=Design Engineer + Project Manager"
+    role="Design Engineer + Project Manager"
     period="2026 – Present"
     open=true
     bullets="Managed and optimized CRM and outreach systems (HubSpot + Apollo) to support audience growth, campaign execution, lead generation, and cross-functional communications workflows.|Supported brand visibility and engagement initiatives through marketing operations, reporting, process improvements, and coordinated campaign support.|Contributed to website and application front-end improvements that strengthened user experience, digital presence, and marketing effectiveness."
