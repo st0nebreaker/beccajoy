@@ -24,7 +24,9 @@ description: >
       to help teams turn ideas into thoughtful, practical, and engaging products.
     </p>
     <p class="intro-bio">
-      I’m interested in opportunities at the intersection of technology, lifestyle, culture, and community, where I can help build products and services that make a meaningful difference.
+      I’m interested in opportunities at the intersection of technology, lifestyle,
+       culture, and community, where I can help build products and services that 
+       make a meaningful difference.
     </p>
     <div class="intro-cta">
       <a href="/work/" class="btn btn--outline">See My Work</a>
