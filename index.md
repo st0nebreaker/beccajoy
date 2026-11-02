@@ -11,7 +11,7 @@ description: >
 <div class="intro-block">
   <div class="intro-lead">
     <img src="{{ '/assets/img/becca-portrait.png' | relative_url }}" alt="Becca Steinbrecher" class="intro-portrait">
-    <p class="intro-tagline">Product Engineer, UX / Front-End Engineer, Product Designer, Project Manager</p>
+    <p class="intro-tagline">Product Engineer, Product Designer, Project Manager</p>
     <p class="intro-bio">
       I sit at a unique junction between tech and mission-driven work. I bring 
       five years designing and building software and a decade across conservation, 
