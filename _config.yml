@@ -4,7 +4,7 @@ tagline: Portfolio
 cover: false
 image:
   path: /assets/img/beccajoy-social-preview.jpg
-slug: Product Designer · UX / Front End Engineer · Project Manager
+slug: Product Engineer · UX / Front-End Engineer · Product Designer · Project Manager
 description: >
   Designer, engineer, and project manager connecting tech and mission-driven causes
 url: https://beccajoy.dev
@@ -17,8 +17,9 @@ author:
   phone: "(858) 431-6492"
   picture: /assets/img/becca-portrait.png
   about: |
-    Product Designer, UX  Engineer & Project Manager connecting product strategy,
-    thoughtful design, and hands-on development for mission-driven teams.
+    Product Engineer, UX  Engineer, Product Designer & Project Manager 
+    connecting product strategy, thoughtful design, and hands-on development 
+    for teams making meaningful tech.
 
 accent_image: /assets/img/sidebar-art.png
 accent_color: rgb(180, 89, 56)
