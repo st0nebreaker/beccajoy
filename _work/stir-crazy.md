@@ -19,6 +19,16 @@ tools:
   - Git
 thumbnail: /assets/img/work/sc-2.png
 
+challenge: >-
+  Turn a collection of 100+ cocktail recipes into an approachable experience for casual browsing and searching by specific drinks or ingredients.
+
+process: >-
+  I contributed to product design, front end implementation, and project management within a four-person team. We built the application using React and TypeScript, integrated The Cocktail Database, and tested with Jest and React Testing Library.
+  A project management Trello board, daily standups, and remote check-ins supported delivery.
+
+outcome: >-
+  Built a cocktail application with name and ingredient search, a featured cocktail, recipe instructions, and saved and tried drink collections.
+
 images:
   - src: /assets/img/work/sc-2.png
     alt: "Stir Crazy recipe discovery screen with search and cocktail cards"
@@ -27,7 +37,3 @@ images:
     alt: "Stir Crazy recipe detail modal with ingredients and preparation instructions"
     caption: "Recipe details keep ingredients and preparation instructions together."
 ---
-
-## My contribution
-
-Contributed to product design, UX engineering, and project management for a cocktail discovery app. Designed and built recipe search and saved-drink experiences using React and TypeScript, expanded test coverage, and managed shared project planning and remote team workflows.

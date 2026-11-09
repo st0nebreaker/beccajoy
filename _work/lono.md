@@ -23,6 +23,15 @@ tools:
   - Heroku
 thumbnail: /assets/img/work/l2.png
 
+challenge: >-
+  Make daily cycle tracking straightforward and help users understand information collected over time through calendar views and temperature reports.
+
+process: >-
+  I contributed to product planning, interface design, front end development, and project coordination within a four-person front end and backend team. We used wireframes, a detailed project board, remote pairing, and test-driven development to organize and implement the application.
+
+outcome: >-
+  Built profile setup, daily logging, historical calendar views, and temperature reports, while exploring progressive web app capabilities and Bluetooth thermometer integration.
+
 images:
   - src: /assets/img/work/l4.png
     alt: "Lono daily check-in form for temperature, symptoms, and notes"
@@ -37,7 +46,3 @@ images:
     alt: "Lono selected-day details and cycle phase information"
     caption: "Selected-day details provide context alongside the calendar."
 ---
-
-## My contribution
-
-Contributed to product design, UX engineering, and project management for a cycle-tracking app. Designed and built daily logging, calendar views, and visual reports using React and TypeScript, while managing project tasks and collaborating across frontend and backend teams.
