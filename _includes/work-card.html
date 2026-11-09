@@ -6,7 +6,7 @@
         <img src="{{ w.thumbnail | relative_url }}" alt="{{ w.title | escape }}" loading="lazy" class="work-card-img">
       {% else %}
         <div class="work-card-thumb--empty">
-          <span class="work-card-thumb-label">{{ w.type | default: "work" | upcase }}</span>
+          <span class="work-card-thumb-label">{{ w.type | default: "case study" | upcase }}</span>
         </div>
       {% endif %}
     </div>
@@ -34,7 +34,7 @@
       {% if w.organization %}
         <span class="work-card-org">{{ w.organization }}</span>
       {% endif %}
-      <a href="{{ w.url | relative_url }}" class="work-card-cta">View Project</a>
+      <a href="{{ w.url | relative_url }}" class="work-card-cta">View Case Study</a>
     </div>
   </div>
 </article>

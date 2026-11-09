@@ -30,7 +30,7 @@ description: >
       a good goal.
     </p>
     <div class="intro-cta">
-      <a href="/work/" class="btn btn--outline">See My Work</a>
+      <a href="/work/" class="btn btn--outline">See My Case Studies</a>
       <a href="/resume/" class="btn btn--outline">View Resume</a>
     </div>
   </div>
@@ -38,7 +38,7 @@ description: >
 
 ---
 
-## Featured Work
+## Featured Case Studies
 {:.section-heading}
 
 <div class="featured-work-grid">
@@ -49,5 +49,5 @@ description: >
 </div>
 
 <div class="section-cta">
-  <a href="/work/" class="btn btn--outline">All Work &rarr;</a>
+  <a href="/work/" class="btn btn--outline">All Case Studies &rarr;</a>
 </div>

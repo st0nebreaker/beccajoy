@@ -84,7 +84,7 @@ layout: base
       <section class="case-study-section">
         <h2>Gallery</h2>
         <div class="gallery-wrap">
-          <div class="case-study-gallery" tabindex="0" role="region" aria-label="Project screenshots">
+          <div class="case-study-gallery" tabindex="0" role="region" aria-label="Case study screenshots">
             {% for img in page.images %}
               <figure class="case-study-figure">
                 <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
@@ -103,7 +103,7 @@ layout: base
   </div>
 
   <footer class="case-study-footer">
-    <a href="{{ '/work/' | relative_url }}" class="btn btn--outline">&larr; All Work</a>
+    <a href="{{ '/work/' | relative_url }}" class="btn btn--outline">&larr; All Case Studies</a>
     {% assign next_item = site.work | where_exp: "item", "item.url != page.url" | first %}
   </footer>
 </article>

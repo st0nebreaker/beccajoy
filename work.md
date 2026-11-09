@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Work
-description: Selected product, design, and development samples.
+title: Case Studies
+description: Selected product, design, and development case studies.
 permalink: /work/
 ---
