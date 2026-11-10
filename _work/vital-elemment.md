@@ -2,16 +2,19 @@
 layout: case-study
 title: Vital Element – Wellness App + Chamber OS
 organization: Vital Element
-role: Design Engineer + Project Manager
+role: Design Engineer + Project Manager, Research, strategy, product direction, product design, and engineering implementation
 year: 2026–present
 featured: true
 featured_order: 1
 thumbnail: /assets/img/work/ve1.png
 summary: >
-  A wellness app and chamber operating system for discovering clinician-designed protocols, booking sessions, and personalizing the wellness experience in the accompanying chamber
+  A wellness app and chamber operating system for discovering clinician-reviewed protocols, booking sessions, and personalizing the in-chamber experience.
 categories: [design, development, project]
 tools:
   - Figma
+  - Product roadmaps
+  - Backlog and project boards
+  - Product documentation
   - React
   - TypeScript
   - SCSS
@@ -19,14 +22,17 @@ tools:
 link: https://vitalelement.co/
 
 challenge: >
-  Translate a complex wellness product into clear digital journeys that help guests discover sessions, check in, and control their chamber experience.
+  Help shape a complex wellness product and translate its capabilities into clear digital journeys—from discovering protocols and booking sessions to checking in and controlling the chamber experience.
 
 process: >
-  I design high-fidelity interfaces and interaction patterns in Figma, then build front end prototypes and production interfaces in React and TypeScript. Working with product and engineering, I define requirements, resolve UX ambiguity, scope features, and coordinate
-  delivery across 5+ stakeholders.
+  My work spans research, product strategy, design, and engineering implementation. I research competitors, evaluate hardware for the chamber, and assess software tools for project planning and delivery. These findings inform product direction, feature priorities, and implementation decisions.
+  
+  I contribute to research into recommended wellness protocols, working with the team to support clinical review and sign-off before protocols become part of the experience.
+  
+  I translate that research and strategy into high-fidelity interfaces and interaction designs and patterns in Figma, build front end prototypes and production interfaces in React and TypeScript. Serving 5+ stakeholders, I define requirements, resolve UX ambiguity, scope features, and coordinate delivery.
 
 outcome: >
-  Designed experiences across 6+ core product journeys and built interfaces across 10+ features, connecting product planning, interaction design, and front end implementation.
+  Designed experiences across 6+ core product journeys and built interfaces across 10+ features. Connected research and product strategy with interaction design and engineering implementation, helping shape what we build and how guests experience it.
 
 images:
   - src: /assets/img/work/ve2.png

@@ -2,13 +2,13 @@
 layout: case-study
 title: TrailFunds – Stewardship Platform
 organization: TrailFunds
-role: Product Designer + Project Manager
+role: Product Designer + Project Manager, Research, strategy, product direction, product design, and project management
 year: 2025–2026
 featured: true
 featured_order: 3
 thumbnail: /assets/img/work/tf1.png
 summary: >
-  A stewardship platform connecting trail users with conservation organizations through volunteering, donations, and trail engagement
+  A stewardship platform connecting trail users with conservation organizations through volunteering, donations, and trail engagement.
 categories: [design, project]
 tools:
   - Product roadmaps
@@ -18,7 +18,7 @@ tools:
 link: https://www.trailfunds.org/
 
 challenge: >
-  Support two connected audiences: stewardship organizations managing field work, volunteers, and reporting, and trail users looking to discover trails, donate, and get involved.
+  Support two connected audiences: stewardship organizations managing field work, volunteers, and reporting, and trail users looking to discover trails, donate, and get involved. Ground product decisions in the needs of the people doing conservation work and the communities supporting it.
 
 process: >
   I shaped product strategy and UX design, translating stakeholder needs into user flows, requirements, and prioritized feature work. I managed the roadmap, backlog, project boards, documentation, and Agile processes across a team of 5 people.
