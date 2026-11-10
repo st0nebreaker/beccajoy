@@ -18,6 +18,7 @@ tools:
   - Trello
   - Git
 thumbnail: /assets/img/work/sc-2.png
+link: https://github.com/st0nebreaker/Spirited-Quarantini/blob/master/README.md
 
 challenge: >-
   Turn a collection of 100+ cocktail recipes into an approachable experience for casual browsing and searching by specific drinks or ingredients.

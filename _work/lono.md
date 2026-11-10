@@ -22,6 +22,7 @@ tools:
   - Travis CI
   - Heroku
 thumbnail: /assets/img/work/l2.png
+link: https://github.com/st0nebreaker/birth-control-tech-FE/blob/master/README.md
 
 challenge: >-
   Make daily cycle tracking straightforward and help users understand information collected over time through calendar views and temperature reports.
