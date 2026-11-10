@@ -30,8 +30,8 @@ description: >
       a good goal.
     </p>
     <div class="intro-cta">
-      <a href="/work/" class="btn btn--outline">See My Case Studies</a>
-      <a href="/resume/" class="btn btn--outline">View Resume</a>
+      <a href="/work/" class="btn btn--outline">Case Studies</a>
+      <a href="/resume/" class="btn btn--outline">Resume</a>
     </div>
   </div>
 </div>
