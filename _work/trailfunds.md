@@ -40,4 +40,13 @@ images:
   - src: /assets/img/work/tf4.png
     alt: "TrailFunds mobile dashboard with donation totals and activity"
     caption: "A dashboard for reviewing donations and contribution history."
+  - src: /assets/img/work/tf5.png
+    alt: "TrailFunds directory for discovering and searching nonprofit stewardship organizations"
+    caption: "Making it easier to find and connect with organizations caring for outdoor spaces."
+  - src: /assets/img/work/tf6.png
+    alt: "TrailFunds volunteer profile displaying user information and activity"
+    caption: "A personalized profile for managing volunteer information and engagement."
+  - src: /assets/img/work/tf7.png
+    alt: "TrailFunds project management board showing project tasks and progress"
+    caption: "A project board for organizing work, tracking progress, and coordinating delivery."
 ---

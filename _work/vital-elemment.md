@@ -44,4 +44,7 @@ images:
   - src: /assets/img/work/ve5.png
     alt: "Vital Element map showing chamber locations"
     caption: "Location discovery and access to booking."
+  - src: /assets/img/work/ve6.png
+    alt: "Vital Element project management board showing project tasks and progress"
+    caption: "A project board for organizing work, tracking progress, and coordinating delivery."
 ---
