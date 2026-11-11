@@ -13,21 +13,13 @@ description: >
     <img src="{{ '/assets/img/becca-portrait.png' | relative_url }}" alt="Becca Steinbrecher" class="intro-portrait">
     <p class="intro-tagline">Product + UX Engineer, Product Designer, Project Manager</p>
     <p class="intro-bio">
-      I sit at a unique junction between tech and mission-driven work. I bring 
-      five years designing and building software and a decade across conservation, 
-      social impact, and community wellness.
+      I bring five years of experience designing and building software, alongside a decade working across conservation, social impact, and community wellness.
     </p>
     <p class="intro-bio">
-      I know what it’s like to need a polished, accessible, user-first product 
-      without a big team to make it happen. Lean NGOs and startups share 
-      those constraints, making creative problem-solving essential. I bring 
-      product strategy, project management, design, and front end development 
-      to help teams turn ideas into thoughtful, practical, and engaging products.
+      I’m passionate about creating meaningful technology that enhances people’s lives. I bring together product strategy, project management, design, and front-end development to turn ideas into thoughtful, accessible, and engaging products. I enjoy working across disciplines, solving creative problems, and building polished, user-first experiences, whether on a lean team or within a larger organization.
     </p>
     <p class="intro-bio">
-      I’m open to opportunities at the intersection of technology, lifestyle, 
-      culture, and community, where I can do good work with good people for 
-      a good goal.
+      I’m open to opportunities at the intersection of technology, lifestyle, culture, and community, where I can do good work with good people for a good goal.
     </p>
     <div class="intro-cta">
       <a href="/work/" class="btn btn--outline">Case Studies</a>
