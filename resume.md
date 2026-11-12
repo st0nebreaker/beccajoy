@@ -39,7 +39,7 @@ cover: false
 {% include resume-entry.html
    company="Career Break | Medical Leave"
    period="Oct 2023 – Oct 2025"
-   bullets="Took time away from work for medical recovery and rehabilitation.|Improved accessibility and usability through WCAG 2.1 audits and frontend remediation.|Continued volunteer communications and community engagement with the WCCC."
+   bullets="Took time away from work for medical recovery and rehabilitation.|Continued volunteer communications and community engagement with the WCCC."
 %}
 
 {% include resume-entry.html
