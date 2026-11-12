@@ -26,7 +26,7 @@ cover: false
    role="Design Engineer + Project Manager"
    period="Mar 2026 – Present"
    open=true
-   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Use AI tools and agent-based workflows for discovery, research, design exploration, prototyping, documentation, and development.|Help shape product strategy and direction through research, discovery, and planning discussions, using AI tools and agent-based workflows across design and development.|Manage project planning and delivery with product and engineering, refining task definitions, requirements, feature priorities, and scope."
+   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows across the mobile app, company website, and chamber software in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Use AI tools and agent-based workflows for research, design exploration, prototyping, documentation, and development.|Help shape product strategy and direction through research, discovery, and planning discussions.|Manage project planning and delivery with product and engineering, refining task definitions, requirements, feature priorities, and scope."
 %}
 
 {% include resume-entry.html
@@ -34,6 +34,12 @@ cover: false
    role="Product Manager"
    period="Nov 2025 – Aug 2026"
    bullets="Shaped product strategy, UX design, and delivery for an outdoor stewardship technology startup.|Translated stakeholder needs into user flows and prioritized features.|Managed roadmaps, backlogs, project boards, documentation, and Agile processes across a cross-functional team.|Used AI tools and agent-based workflows for research, requirements, planning, documentation, and operations."
+%}
+
+{% include resume-entry.html
+   company="Career Break | Medical Leave"
+   period="Oct 2023 – Oct 2025"
+   bullets="Took time away from work for medical recovery and rehabilitation.|Improved accessibility and usability through WCAG 2.1 audits and frontend remediation.|Continued volunteer communications and community engagement with the WCCC."
 %}
 
 {% include resume-entry.html
@@ -78,16 +84,16 @@ cover: false
   {% include resume-entry.html
     company="Vital Element"
     role="Design Engineer + Project Manager"
-    period="2026 – Present"
+    period="Mar 2026 – Present"
     open=true
-    bullets="Managed and optimized CRM and outreach systems (HubSpot + Apollo) to support audience growth, campaign execution, lead generation, and cross-functional communications workflows.|Supported brand visibility and engagement initiatives through marketing operations, reporting, process improvements, and coordinated campaign support.|Contributed to website and application front-end improvements that strengthened user experience, digital presence, and marketing effectiveness."
+    bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows across the mobile app, company website, and chamber software in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Use AI tools and agent-based workflows for research, design exploration, prototyping, documentation, and development.|Help shape product strategy and direction through research, discovery, and planning discussions.|Manage project planning and delivery with product and engineering, refining task definitions, requirements, feature priorities, and scope."
   %}
 
   {% include resume-entry.html
     company="TrailFunds"
     role="Product Manager"
-    period="2025 – 2026"
-    bullets="Supported strategic product, communications, and operational initiatives for an early-stage conservation technology startup focused on stewardship and outdoor impact.|Built and refined collaborative systems, workflows, and project processes that improved team coordination, visibility, and execution.|Led intake, prioritization, and tracking processes that aligned stakeholder needs and organizational goals while increasing accountability and reducing ambiguity."
+    period="Nov 2025 – Aug 2026"
+    bullets="Shaped product strategy, UX design, and delivery for an outdoor stewardship technology startup.|Translated stakeholder needs into user flows and prioritized features.|Managed roadmaps, backlogs, project boards, documentation, and Agile processes across a cross-functional team.|Used AI tools and agent-based workflows for research, requirements, planning, documentation, and operations."
   %}
 
   {% include resume-entry.html

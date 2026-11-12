@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: Vital Element – Wellness App + Chamber OS
+title: Vital Element – Mobile App, Website + Chamber OS
 organization: Vital Element
 role: Design Engineer + Project Manager, Research, strategy, product direction, product design, and engineering implementation
 year: 2026–present
@@ -8,7 +8,7 @@ featured: true
 featured_order: 1
 thumbnail: /assets/img/work/ve1.png
 summary: >
-  A wellness app and chamber operating system for discovering clinician-reviewed protocols, booking sessions, and personalizing the in-chamber experience.
+  Design and implementation across Vital Element’s mobile app, website, and chamber software, connecting wellness discovery and session booking with a personalized in-chamber experience.
 categories: [design, development, project]
 tools:
   - Figma
@@ -22,17 +22,19 @@ tools:
 link: https://vitalelement.co/
 
 challenge: >
-  Help shape a complex wellness product and translate its capabilities into clear digital journeys—from discovering protocols and booking sessions to checking in and controlling the chamber experience.
+  Create clear, consistent digital journeys across three platforms: the mobile app, company website, and chamber software. The inherited chamber interface had fragmented controls and inconsistent patterns, making it difficult for guests to understand and adjust a complex environment during a session.
 
 process: >
-  My work spans research, product strategy, design, and engineering implementation. I research competitors, evaluate hardware for the chamber, and assess software tools for project planning and delivery. These findings inform product direction, feature priorities, and implementation decisions.
-  
-  I contribute to research into recommended wellness protocols, working with the team to support clinical review and sign-off before protocols become part of the experience.
-  
-  I translate that research and strategy into high-fidelity interfaces and interaction designs and patterns in Figma, build front end prototypes and production interfaces in React and TypeScript. Serving 5+ stakeholders, I define requirements, resolve UX ambiguity, scope features, and coordinate delivery.
+  My work spans research, product strategy, design, and engineering implementation across all three platforms. I research competitors, evaluate chamber hardware, and assess software tools for project planning and delivery. These findings inform product direction, feature priorities, and implementation decisions.
+
+  I prioritized the chamber’s in-session Control Center, where confusion directly affects the guest experience. I simplified its information architecture, consolidated controls into clearer groups, and established consistent interface patterns.
+
+  I translate research and strategy into high-fidelity interfaces in Figma, then build front end prototypes and production interfaces in React and TypeScript. Across the mobile app, website, and chamber software, I define requirements, resolve UX ambiguity, scope features, and coordinate delivery for 5+ stakeholders.
+
+  I also contribute to research into recommended wellness protocols, working with the team to support clinical review and sign-off before protocols become part of the experience.
 
 outcome: >
-  Designed experiences across 6+ core product journeys and built interfaces across 10+ features. Connected research and product strategy with interaction design and engineering implementation, helping shape what we build and how guests experience it.
+  Designed and implemented interfaces across the mobile app, company website, and chamber software, covering 6+ core product journeys and 10+ features. Simplified in-session navigation and brought greater consistency to the experience, connecting research and product strategy with design and engineering delivery.
 
 images:
   - src: /assets/img/work/ve2.png
