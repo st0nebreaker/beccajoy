@@ -26,7 +26,7 @@ cover: false
    role="Design Engineer + Project Manager"
    period="Mar 2026 – Present"
    open=true
-   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows across the mobile app, company website, and chamber software in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Use AI tools and agent-based workflows for research, design exploration, prototyping, documentation, and development.|Help shape product strategy and direction through research, discovery, and planning discussions.|Manage project planning and delivery with product and engineering, refining task definitions, requirements, feature priorities, and scope."
+   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across the mobile app, company website, and chamber software.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Apply AI tools and agent-based workflows across research, design exploration, prototyping, documentation, and development; contribute to product strategy through discovery and planning.|Lead project planning and delivery with product and engineering, refining requirements, task definitions, feature priorities, and scope."
 %}
 
 {% include resume-entry.html
@@ -86,7 +86,7 @@ cover: false
     role="Design Engineer + Project Manager"
     period="Mar 2026 – Present"
     open=true
-    bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows across the mobile app, company website, and chamber software in Figma.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Use AI tools and agent-based workflows for research, design exploration, prototyping, documentation, and development.|Help shape product strategy and direction through research, discovery, and planning discussions.|Manage project planning and delivery with product and engineering, refining task definitions, requirements, feature priorities, and scope."
+    bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across the mobile app, company website, and chamber software.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Apply AI tools and agent-based workflows across research, design exploration, prototyping, documentation, and development; contribute to product strategy through discovery and planning.|Lead project planning and delivery with product and engineering, refining requirements, task definitions, feature priorities, and scope."
   %}
 
   {% include resume-entry.html
