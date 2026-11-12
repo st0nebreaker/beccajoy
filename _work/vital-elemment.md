@@ -25,11 +25,11 @@ challenge: >
   Create clear, consistent digital journeys across three platforms: the mobile app, company website, and chamber software. The inherited chamber interface had fragmented controls and inconsistent patterns, making it difficult for guests to understand and adjust a complex environment during a session.
 
 process: >
-  My work spans research, product strategy, design, and engineering implementation across all three platforms. I research competitors, evaluate chamber hardware, and assess software tools for project planning and delivery. These findings inform product direction, feature priorities, and implementation decisions.
+  My work spans research, product strategy, design, and engineering implementation across all three platforms. I research competitors, evaluate chamber hardware, and assess software tools for project planning and delivery. These findings inform product direction, feature priorities, and implementation decisions. </br>
 
-  I prioritized the chamber’s in-session Control Center, where confusion directly affects the guest experience. I simplified its information architecture, consolidated controls into clearer groups, and established consistent interface patterns.
+  I prioritized the chamber’s in-session Control Center, where confusion directly affects the guest experience. I simplified its information architecture, consolidated controls into clearer groups, and established consistent interface patterns. </br>
 
-  I translate research and strategy into high-fidelity interfaces in Figma, then build front end prototypes and production interfaces in React and TypeScript. Across the mobile app, website, and chamber software, I define requirements, resolve UX ambiguity, scope features, and coordinate delivery for 5+ stakeholders.
+  I translate research and strategy into high-fidelity interfaces in Figma, then build front end prototypes and production interfaces in React and TypeScript. Across the mobile app, website, and chamber software, I define requirements, resolve UX ambiguity, scope features, and coordinate delivery for 5+ stakeholders. </br>
 
   I also contribute to research into recommended wellness protocols, working with the team to support clinical review and sign-off before protocols become part of the experience.
 

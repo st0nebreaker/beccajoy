@@ -21,9 +21,9 @@ challenge: >
   Support two connected audiences: stewardship organizations managing field work, volunteers, and reporting, and trail users looking to discover trails, donate, and get involved. Ground product decisions in the needs of the people doing conservation work and the communities supporting it.
 
 process: >
-  My work spanned research, strategy, product direction, design, and project management. Through extensive interviews with clients and workers in the field, I explored their workflows, challenges, and priorities to identify where the platform could provide the most value.
+  My work spanned research, strategy, product direction, design, and project management. Through extensive interviews with clients and workers in the field, I explored their workflows, challenges, and priorities to identify where the platform could provide the most value. </br>
   
-  I translated those findings into product priorities, user flows, requirements, and feature designs, balancing organizational needs with an accessible experience for trail users.
+  I translated those findings into product priorities, user flows, requirements, and feature designs, balancing organizational needs with an accessible experience for trail users. </br>
   
   Across a team of 5 people, I managed the roadmap, backlog, project boards, documentation, and Agile processes—scoping initiatives, coordinating delivery, and keeping work aligned with product goals.
 
