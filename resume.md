@@ -24,7 +24,7 @@ cover: false
 {% include resume-entry.html
    company="Vital Element"
    role="Design Engineer + Project Manager"
-   period="Mar 2026 – Present"
+   period="Dec 2025 – Present"
    open=true
    bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across the mobile app, company website, and chamber software.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Apply AI tools and agent-based workflows across research, design exploration, prototyping, documentation, and development; contribute to product strategy through discovery and planning.|Lead project planning and delivery with product and engineering, refining requirements, task definitions, feature priorities, and scope."
 %}
@@ -84,7 +84,7 @@ cover: false
   {% include resume-entry.html
     company="Vital Element"
     role="Design Engineer + Project Manager"
-    period="Mar 2026 – Present"
+    period="Dec 2025 – Present"
     open=true
     bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across the mobile app, company website, and chamber software.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Apply AI tools and agent-based workflows across research, design exploration, prototyping, documentation, and development; contribute to product strategy through discovery and planning.|Lead project planning and delivery with product and engineering, refining requirements, task definitions, feature priorities, and scope."
   %}
