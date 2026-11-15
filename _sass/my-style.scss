@@ -263,11 +263,9 @@ a {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: box-shadow 0.22s ease, transform 0.22s ease;
-
-  &:hover {
+  &:hover,
+  &:focus-within {
     box-shadow: var(--bs-shadow-card-hover);
-    transform: translateY(-3px);
   }
 
   &--featured {
@@ -291,11 +289,6 @@ a {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.35s ease;
-
-  .work-card:hover & {
-    transform: scale(1.03);
-  }
 }
 
 .work-card-thumb--empty {
@@ -377,14 +370,57 @@ a {
 }
 
 .work-card-cta {
+  position: relative;
+  display: inline-block;
   font-size: 0.82rem;
   font-weight: 500;
   color: var(--bs-terracotta);
   text-decoration: none;
 
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background: var(--bs-terracotta);
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  .work-card:hover &::before,
+  .work-card:focus-within &::before {
+    transform: scaleX(1);
+  }
+
   &:hover {
     color: var(--bs-ochre);
-    text-decoration: underline;
+    text-decoration: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .work-card {
+    transition: box-shadow 250ms ease, transform 250ms ease;
+
+    &:hover,
+    &:focus-within {
+      transform: translateY(-4px);
+    }
+  }
+
+  .work-card-img {
+    transition: transform 250ms ease;
+
+    .work-card:hover &,
+    .work-card:focus-within & {
+      transform: scale(1.025);
+    }
+  }
+
+  .work-card-cta::before {
+    transition: transform 250ms ease;
   }
 }
 
@@ -1096,19 +1132,6 @@ a {
   padding-top: calc(2rem + 15svh);
   padding-bottom: 15svh;
   box-sizing: border-box;
-}
-
-#_sidebar {
-  isolation: isolate;
-}
-
-#_sidebar::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  background: rgba(0, 0, 0, 0.14);
-  pointer-events: none;
 }
 
 #_sidebar .sidebar-sticky {
