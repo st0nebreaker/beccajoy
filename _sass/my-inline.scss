@@ -16,6 +16,15 @@
   pointer-events: none;
 }
 
+// Hydejack's header spans the viewport even when only its narrow peek is visible.
+// Size the photograph to that visible panel so its painted detail stays legible.
+@media (min-width: 64em) {
+  #_drawer:not([opened]) #_sidebar .sidebar-bg {
+    width: var(--hy-drawer-peek-width, 21rem);
+    left: calc(50% - var(--hy-drawer-peek-width, 21rem) / 2);
+  }
+}
+
 #_sidebar .sidebar-blur-image,
 #_sidebar .sidebar-focus-image {
   position: absolute;
@@ -66,6 +75,9 @@
 
 .sidebar-about > a.sidebar-title::after,
 .sidebar-about > a.sidebar-title:hover::after {
+  width: 8rem;
+  max-width: 100%;
+  border-bottom-width: 3px;
   border-color: #d19a32;
 }
 
@@ -79,8 +91,8 @@
 .sidebar-nav .sidebar-nav-item::after {
   content: '';
   position: absolute;
-  inset: auto 0 0;
-  height: 1px;
+  inset: auto -0.4rem 0;
+  height: 2px;
   background: currentColor;
   transform: scaleX(0);
   transform-origin: right;

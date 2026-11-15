@@ -35,7 +35,6 @@
   let frame = 0;
   let exitTimer = 0;
   let previousTime = 0;
-  let bounds;
   let x = 0;
   let y = 0;
   let targetX = 0;
@@ -69,12 +68,22 @@
     sidebar.classList.toggle('is-focus-link', !!event.target.closest('a, button'));
   }
 
+  function pointerTarget(event) {
+    // The drawer can translate after entry; the mask's box is the source of truth.
+    const focus = sidebar.querySelector('.sidebar-focus');
+    if (!focus) return false;
+    const bounds = focus.getBoundingClientRect();
+    targetX = event.clientX - bounds.left;
+    targetY = event.clientY - bounds.top;
+    return true;
+  }
+
   function enter(event) {
     if (!precision.matches || reduced.matches || event.pointerType === 'touch') return;
     clearTimeout(exitTimer);
-    bounds = sidebar.getBoundingClientRect();
-    x = targetX = event.clientX - bounds.left;
-    y = targetY = event.clientY - bounds.top;
+    if (!pointerTarget(event)) return;
+    x = targetX;
+    y = targetY;
     position();
     active = true;
     sidebar.classList.remove('is-focus-leaving');
@@ -97,9 +106,9 @@
 
   sidebar.addEventListener('pointerenter', enter);
   sidebar.addEventListener('pointermove', function (event) {
-    if (!active) return;
-    targetX = event.clientX - bounds.left;
-    targetY = event.clientY - bounds.top;
+    // Also enter when the page/drawer has appeared beneath a stationary pointer.
+    if (!active) enter(event);
+    if (!active || !pointerTarget(event)) return;
     linkIntensity(event);
     if (!frame) frame = requestAnimationFrame(follow);
   }, { passive: true });
