@@ -7,6 +7,7 @@ year: 2025–2026
 featured: true
 featured_order: 3
 thumbnail: /assets/img/work/tf1.png
+image_motion: trail
 summary: >
   A stewardship platform connecting trail users with conservation organizations through volunteering, donations, and trail engagement.
 categories: [design, project]

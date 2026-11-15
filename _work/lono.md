@@ -22,6 +22,7 @@ tools:
   - Travis CI
   - Heroku
 thumbnail: /assets/img/work/l2.png
+image_motion: trail
 link: https://github.com/st0nebreaker/birth-control-tech-FE/blob/master/README.md
 
 challenge: >-

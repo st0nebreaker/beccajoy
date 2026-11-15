@@ -9,6 +9,38 @@
 
 #_sidebar .sidebar-bg {
   z-index: -1;
+  left: 0;
+  width: 100%;
+  background-image: none !important;
+  animation: none;
+  pointer-events: none;
+}
+
+#_sidebar .sidebar-blur-image,
+#_sidebar .sidebar-focus-image {
+  position: absolute;
+  inset: -12px;
+  background: var(--sidebar-background, none);
+  background-position: center;
+  background-size: cover;
+  transform: scale(1.06);
+}
+
+#_sidebar .sidebar-blur-image {
+  filter: blur(10px);
+}
+
+#_sidebar .sidebar-focus {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@property --focus-size {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0.7;
 }
 
 #_sidebar::before {
@@ -18,39 +50,143 @@
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(ellipse at 25% 20%, rgba(196, 146, 59, 0.13), transparent 65%),
-    rgba(0, 0, 0, 0.14);
+    radial-gradient(ellipse at 25% 20%, rgba(196, 146, 59, 0.22), transparent 65%),
+    linear-gradient(to bottom, rgba(20, 25, 16, 0.22), rgba(20, 25, 16, 0.38) 45%, rgba(20, 25, 16, 0.24));
+}
+
+// The readability gradient stays still while the separate warm wash drifts.
+#_sidebar::after {
+  content: '';
+  position: absolute;
+  inset: -8%;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 25% 20%, rgba(196, 146, 59, 0.18), transparent 65%);
+}
+
+.sidebar-about > a.sidebar-title::after,
+.sidebar-about > a.sidebar-title:hover::after {
+  border-color: #d19a32;
+}
+
+.sidebar-nav .sidebar-nav-item {
+  position: relative;
+  border-bottom-color: transparent;
+  text-decoration: none;
+  background-image: none;
+}
+
+.sidebar-nav .sidebar-nav-item::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.sidebar .sidebar-nav .sidebar-nav-item:hover {
+  border-bottom-color: transparent;
+  text-decoration: none;
+}
+
+.sidebar-nav .sidebar-nav-item:hover::after,
+.sidebar-nav .sidebar-nav-item:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  #_sidebar .sidebar-bg {
-    animation: golden-hour-drift 14s ease-in-out infinite alternate;
+  #_sidebar .sidebar-blur-image,
+  #_sidebar .sidebar-focus-image {
+    animation: golden-hour-drift 12s ease-in-out infinite alternate;
   }
 
-  #_sidebar::before {
+  #_sidebar::after {
     animation: golden-hour-light 16s ease-in-out infinite alternate;
   }
 
   #_sidebar .sidebar-name,
-  #_sidebar .sidebar-nav {
-    animation: sidebar-arrive 800ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  #_sidebar .sidebar-nav li {
+    animation: sidebar-arrive 1000ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
   }
 
   #_sidebar .sidebar-name { animation-delay: 80ms; }
-  #_sidebar .sidebar-nav { animation-delay: 240ms; }
+  .sidebar-about > a.sidebar-title::after {
+    transform-origin: left;
+    animation: ink-line-arrive 550ms cubic-bezier(0.65, 0, 0.25, 1.15) 1230ms both;
+  }
+
+  .sidebar-nav .sidebar-nav-item::after {
+    transition: transform 550ms cubic-bezier(0.65, 0, 0.25, 1.15);
+  }
+
+  #featured-case-studies.ink-pending::after {
+    transform: scaleX(0);
+  }
+
+  #featured-case-studies.ink-revealed::after {
+    animation: ink-line-arrive 600ms cubic-bezier(0.65, 0, 0.25, 1.15) both;
+  }
+  #_sidebar .sidebar-nav li {
+    animation-delay: calc(320ms + var(--nav-index, 0) * 140ms);
+  }
+
+  // Reveal a focused link immediately if someone tabs during the entrance.
+  #_sidebar .sidebar-title:focus-within .sidebar-name,
+  #_sidebar .sidebar-nav li:focus-within {
+    animation: none;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  #_sidebar .sidebar-focus {
+    --focus-size: 0.7;
+    -webkit-mask-image: radial-gradient(ellipse calc(220px * var(--focus-size)) calc(190px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 35%, rgba(0, 0, 0, 0.29) 68%, transparent 100%);
+    mask-image: radial-gradient(ellipse calc(220px * var(--focus-size)) calc(190px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 35%, rgba(0, 0, 0, 0.29) 68%, transparent 100%);
+    transition: opacity 450ms cubic-bezier(0.22, 1, 0.36, 1), --focus-size 450ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  #_sidebar.is-focus-active .sidebar-focus {
+    --focus-size: 1;
+    opacity: 0.85;
+    will-change: opacity, mask-image;
+  }
+
+  #_sidebar.is-focus-active.is-focus-link .sidebar-focus { opacity: 0.74; }
+
+  #_sidebar.is-focus-leaving .sidebar-focus {
+    --focus-size: 0.85;
+    opacity: 0;
+    transition-duration: 650ms;
+    transition-delay: 100ms;
+  }
+
+  @media (max-width: 63.99em) {
+    #_sidebar .sidebar-focus {
+      -webkit-mask-image: radial-gradient(ellipse calc(280px * var(--focus-size)) calc(240px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 35%, rgba(0, 0, 0, 0.29) 68%, transparent 100%);
+      mask-image: radial-gradient(ellipse calc(280px * var(--focus-size)) calc(240px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 35%, rgba(0, 0, 0, 0.29) 68%, transparent 100%);
+    }
+  }
+}
+
+@keyframes ink-line-arrive {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
 }
 
 @keyframes golden-hour-drift {
-  from { transform: translate(-0.5%, 0.25%) scale(1.03); }
-  to { transform: translate(0.5%, -0.25%) scale(1.08); }
+  from { transform: translate(-1%, 0.75%) scale(1.03); }
+  to { transform: translate(1%, -0.75%) scale(1.08); }
 }
 
 @keyframes golden-hour-light {
-  from { transform: translate(-1%, -0.5%); }
-  to { transform: translate(1%, 0.5%); }
+  from { opacity: 0.65; transform: translate(-4%, -2%); }
+  to { opacity: 1; transform: translate(4%, 2%); }
 }
 
 @keyframes sidebar-arrive {
-  from { opacity: 0; transform: translateY(8px); }
+  from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: translateY(0); }
 }

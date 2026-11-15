@@ -7,6 +7,7 @@ year: 2026–present
 featured: true
 featured_order: 1
 thumbnail: /assets/img/work/ve1.png
+image_motion: landscape
 summary: >
   Design and implementation across Vital Element’s mobile app, website, and chamber software, connecting wellness discovery and session booking with a personalized in-chamber experience.
 categories: [design, development, project]

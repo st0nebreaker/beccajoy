@@ -144,15 +144,19 @@ cover: false
   </div>
   <div class="skill-group">
     <h4>Front End</h4>
-    <p>JavaScript, TypeScript, React, React Hooks, Vue.js, Redux, React Router, HTML5, CSS/SCSS/SASS, Node.js, Express</p>
-  </div>
-  <div class="skill-group">
-    <h4>Engineering</h4>
-    <p>API Integration, REST APIs, SQL/PostgreSQL, Git, Microservices, Azure Cosmos DB, Docker/Kubernetes, AWS Lambda, CI/CD, Debugging, TDD, QA</p>
+    <p>JavaScript, TypeScript, React, React Hooks, React Native, Next.js, Vue.js, Redux, React Router, HTML5, CSS/SCSS/SASS, Cypress, Bootstrap, Tailwind, Storybook</p>
   </div>
   <div class="skill-group">
     <h4>AI + Modern Workflows</h4>
-    <p>AI-Assisted Design &amp; Development, Agent-Based Workflows, AI-Assisted Research, Product Ideation, Requirements, Technical Research, Workflow Automation</p>
+    <p>AI-Assisted Development, AI-Assisted Design, Agent-Based Workflows, AI-Assisted Research, Product Ideation, Requirements, Technical Research, Prototyping, Debugging, Documentation, Workflow Automation</p>
+  </div>
+  <div class="skill-group">
+    <h4>Backend + Data</h4>
+    <p>Node.js, Express, REST APIs, API Integration, SQL/PostgreSQL, Azure Cosmos DB, Prisma</p>
+  </div>
+  <div class="skill-group">
+    <h4>Engineering</h4>
+    <p>Claude agent-assisted development, Git, Microservices, Docker/Kubernetes, AWS Lambda, CI/CD, Testing, TDD, QA, Debugging</p>
   </div>
   <div class="skill-group">
     <h4>Product + PM</h4>

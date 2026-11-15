@@ -410,18 +410,61 @@ a {
     }
   }
 
-  .work-card-img {
-    transition: transform 250ms ease;
-
-    .work-card:hover &,
-    .work-card:focus-within & {
-      transform: scale(1.025);
-    }
-  }
-
   .work-card-cta::before {
     transition: transform 250ms ease;
   }
+}
+
+// Keep a little image bleed on landscapes so the pan never exposes the frame.
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .work-card-img {
+    transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+    transform-origin: 60% 35%;
+  }
+
+  .work-card[data-image-motion='landscape'] .work-card-img {
+    transform: scale(1.08) translateX(-1.75%);
+  }
+
+  .work-card[data-image-motion='landscape']:hover .work-card-img,
+  .work-card[data-image-motion='landscape']:focus-within .work-card-img {
+    transform: scale(1.08) translateX(1.75%);
+    transition-duration: 1200ms;
+  }
+
+  .work-card[data-image-motion='interface']:hover .work-card-img,
+  .work-card[data-image-motion='interface']:focus-within .work-card-img {
+    transform: scale(1.04);
+    transition-duration: 800ms;
+  }
+
+  .work-card[data-image-motion='trail'] .work-card-img {
+    top: -3%;
+    height: 106%;
+  }
+
+  .work-card[data-image-motion='trail']:hover .work-card-img,
+  .work-card[data-image-motion='trail']:focus-within .work-card-img {
+    transform: scale(1.03) translateY(-3%);
+    transition-duration: 1000ms;
+  }
+}
+
+#featured-case-studies {
+  position: relative;
+  border-bottom-color: transparent;
+}
+
+#featured-case-studies::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background: var(--bs-terracotta);
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 // ── Resume Components ────────────────────────────────────────

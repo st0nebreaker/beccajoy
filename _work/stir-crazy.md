@@ -18,6 +18,7 @@ tools:
   - Trello
   - Git
 thumbnail: /assets/img/work/sc-2.png
+image_motion: landscape
 link: https://github.com/st0nebreaker/Spirited-Quarantini/blob/master/README.md
 
 challenge: >-

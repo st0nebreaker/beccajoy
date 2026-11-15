@@ -4,9 +4,8 @@ title: Slalom_build – Applicant Tracking System
 organization: Slalom_build
 role: UI/UX Design + Front End Engineering
 year: 2021–2022
-featured: true
-featured_order: 2
 thumbnail: /assets/img/work/s-ats-5.png
+image_motion: interface
 summary: >
   A multi-client applicant portal supporting job discovery, applications, and interview scheduling
 categories: [design, development]

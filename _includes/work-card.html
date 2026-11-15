@@ -1,5 +1,5 @@
 {% assign w = include.work %}
-<article class="work-card{% if w.featured %} work-card--featured{% endif %}" data-types="{{ w.categories | join: ' ' | escape }}">
+<article class="work-card{% if w.featured %} work-card--featured{% endif %}" data-image-motion="{{ w.image_motion | default: 'interface' | escape }}" data-types="{{ w.categories | join: ' ' | escape }}">
   <a href="{{ w.url | relative_url }}" class="work-card-link" tabindex="-1" aria-hidden="true">
     <div class="work-card-thumb">
       {% if w.thumbnail %}

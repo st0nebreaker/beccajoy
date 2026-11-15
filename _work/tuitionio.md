@@ -2,6 +2,8 @@
 layout: case-study
 year: 2020–2021
 title: Tuition.io – Education Benefits Platform
+featured: true
+featured_order: 2
 summary: >-
   An employee education benefits platform for managing student loan contributions and tuition assistance
 role: "UX Engineer + Project Manager"
@@ -15,6 +17,7 @@ tools:
   - Legacy code refactoring
 link: https://www.tuition.io/
 thumbnail: /assets/img/work/tio2.png
+image_motion: interface
 
 challenge: >-
   Make education benefit information easier to navigate while accommodating client requirements and maintaining a consistent, reliable front end experience.
