@@ -6,7 +6,7 @@ cover: false
 ---
 
 ## Experience {#experience}
-{:.section-heading}
+{:.featured-work-heading}
 
 <p class="resume-instruction">Click any role to expand details.</p>
 
