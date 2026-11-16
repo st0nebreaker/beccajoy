@@ -31,7 +31,7 @@ description: >
 ---
 
 ## Featured Case Studies
-{:.section-heading}
+{:.featured-work-heading}
 
 <div class="featured-work-grid">
   {% assign featured = site.work | where: "featured", true | sort: "featured_order" %}

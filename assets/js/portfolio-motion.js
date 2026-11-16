@@ -6,29 +6,6 @@
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const precision = window.matchMedia('(hover: hover) and (pointer: fine)');
   const sidebar = document.getElementById('_sidebar');
-  let observer;
-
-  function observeHeading() {
-    if (observer) observer.disconnect();
-    const heading = document.getElementById('featured-case-studies');
-    if (!heading) return;
-    heading.classList.remove('ink-pending', 'ink-revealed');
-    if (reduced.matches || !('IntersectionObserver' in window)) return;
-    observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('ink-revealed');
-        entry.target.classList.remove('ink-pending');
-        observer.unobserve(entry.target);
-      });
-    }, { threshold: 0.5 });
-    heading.classList.add('ink-pending');
-    observer.observe(heading);
-  }
-
-  observeHeading();
-  document.addEventListener('hy-push-state-load', observeHeading);
-  reduced.addEventListener('change', observeHeading);
   if (!sidebar) return;
 
   let active = false;

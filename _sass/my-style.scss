@@ -436,22 +436,20 @@ a {
   }
 }
 
-#featured-case-studies {
-  position: relative;
-  border-bottom-width: 3px;
-  border-bottom-color: transparent;
+.featured-work-heading {
+  font-family: var(--bs-font-display);
+  font-size: 1.75rem;
+  color: var(--bs-terracotta);
+  margin: 1.25rem 0 0.75rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-decoration: none;
 }
 
-#featured-case-studies::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: -1.5rem;
-  bottom: -3px;
-  height: 3px;
-  background: var(--bs-terracotta);
-  transform: scaleX(1);
-  transform-origin: left;
+.featured-work-heading::before,
+.featured-work-heading::after {
+  content: none;
 }
 
 // ── Resume Components ────────────────────────────────────────

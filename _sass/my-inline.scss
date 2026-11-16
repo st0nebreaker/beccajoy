@@ -114,13 +114,6 @@
     animation: ink-line-arrive 550ms cubic-bezier(0.65, 0, 0.25, 1.15) 1230ms both;
   }
 
-  #featured-case-studies.ink-pending::after {
-    transform: scaleX(0);
-  }
-
-  #featured-case-studies.ink-revealed::after {
-    animation: ink-line-arrive 600ms cubic-bezier(0.65, 0, 0.25, 1.15) both;
-  }
   #_sidebar .sidebar-nav li {
     animation-delay: calc(320ms + var(--nav-index, 0) * 140ms);
   }
