@@ -10,10 +10,7 @@ description: >
 
 <div class="intro-block">
   <div class="intro-lead">
-    <div class="intro-visual">
-      <img src="{{ '/assets/img/becca-portrait.png' | relative_url }}" alt="Becca Steinbrecher" class="intro-portrait" width="140" height="140">
-      {% include topographic-globe.html %}
-    </div>
+    <img src="{{ '/assets/img/becca-portrait.png' | relative_url }}" alt="Becca Steinbrecher" class="intro-portrait" width="140" height="140">
     <p class="intro-tagline">Product + UX Engineer, Product Designer, Project Manager</p>
     <p class="intro-bio">
       I bring five years of experience designing and building software, alongside a decade working across conservation, social impact, and community wellness.
