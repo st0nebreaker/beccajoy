@@ -128,8 +128,8 @@
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   #_sidebar .sidebar-focus {
     --focus-size: 0.7;
-    -webkit-mask-image: radial-gradient(ellipse calc(220px * var(--focus-size)) calc(190px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
-    mask-image: radial-gradient(ellipse calc(220px * var(--focus-size)) calc(190px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
+    -webkit-mask-image: radial-gradient(ellipse calc(185px * var(--focus-size)) calc(190px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
+    mask-image: radial-gradient(ellipse calc(185px * var(--focus-size)) calc(190px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
     transition: opacity 450ms cubic-bezier(0.22, 1, 0.36, 1), --focus-size 450ms cubic-bezier(0.22, 1, 0.36, 1);
   }
 
@@ -150,8 +150,8 @@
 
   @media (max-width: 63.99em) {
     #_sidebar .sidebar-focus {
-      -webkit-mask-image: radial-gradient(ellipse calc(280px * var(--focus-size)) calc(240px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
-      mask-image: radial-gradient(ellipse calc(280px * var(--focus-size)) calc(240px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
+      -webkit-mask-image: radial-gradient(ellipse calc(235px * var(--focus-size)) calc(240px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
+      mask-image: radial-gradient(ellipse calc(235px * var(--focus-size)) calc(240px * var(--focus-size)) at var(--pointer-x, 50%) var(--pointer-y, 50%), #000 0%, rgba(0, 0, 0, 0.94) 45%, rgba(0, 0, 0, 0.22) 72%, transparent 92%);
     }
   }
 }

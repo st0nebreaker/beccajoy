@@ -437,6 +437,9 @@ a {
 }
 
 .featured-work-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
   font-family: var(--bs-font-display);
   font-size: 1.75rem;
   color: var(--bs-terracotta);
@@ -447,9 +450,18 @@ a {
   text-decoration: none;
 }
 
-.featured-work-heading::before,
-.featured-work-heading::after {
+.featured-work-heading::before {
   content: none;
+}
+
+.featured-work-heading::after {
+  content: '';
+  display: block;
+  flex: none;
+  width: 0.25em;
+  height: 0.25em;
+  border-radius: 50%;
+  background: #000;
 }
 
 // ── Resume Components ────────────────────────────────────────
