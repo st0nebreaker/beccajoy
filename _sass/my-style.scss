@@ -439,7 +439,7 @@ a {
 .featured-work-heading {
   display: inline-flex;
   align-items: center;
-  gap: 0.45em;
+  gap: 0.15em;
   font-family: var(--bs-font-display);
   font-size: 1.75rem;
   color: var(--bs-terracotta);
@@ -458,8 +458,8 @@ a {
   content: '';
   display: block;
   flex: none;
-  width: 0.25em;
-  height: 0.25em;
+  width: 0.4em;
+  height: 0.4em;
   border-radius: 50%;
   background: #000;
 }

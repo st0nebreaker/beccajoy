@@ -135,7 +135,7 @@ cover: false
 ---
 
 ## Skills
-{:.section-heading}
+{:.featured-work-heading}
 
 <div class="skills-grid">
   <div class="skill-group">
@@ -186,7 +186,7 @@ cover: false
 ---
 
 ## Education + Certifications
-{:.section-heading}
+{:.featured-work-heading}
 
 <div class="education-list">
   <div class="education-item">
