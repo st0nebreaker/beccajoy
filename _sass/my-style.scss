@@ -88,8 +88,8 @@ a {
   }
 }
 
-// Override Hydejack's link borders as well as native text underlines.
-#_main a:not(.btn),
+// Keep button and filter-pill outlines while removing text-link underlines.
+#_main a:not(.btn):not([data-filter]),
 #_sidebar a:not(.btn) {
   text-decoration: none;
   border-bottom: 0 !important;
