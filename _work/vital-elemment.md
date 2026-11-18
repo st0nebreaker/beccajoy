@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: Vital Element – Mobile App, Website + Chamber OS
+title: Vital Element – Wellness App, Website + Chamber OS
 organization: Vital Element
 role: Design Engineer + Project Manager, Research, strategy, product direction, product design, and engineering implementation
 year: 2026–present
