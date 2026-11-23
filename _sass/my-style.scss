@@ -517,6 +517,9 @@ a {
   gap: var(--bs-space-md);
   flex-wrap: wrap;
   margin: 0;
+}
+
+summary.resume-entry-header {
   cursor: pointer;
   list-style: none;
 

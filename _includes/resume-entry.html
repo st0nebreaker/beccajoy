@@ -1,5 +1,13 @@
-<details class="resume-entry" {% if include.open %}open{% endif %}>
-  <summary class="resume-entry-header">
+{% assign bullet_text = include.bullets | remove: "|" | strip %}
+{% if bullet_text != empty %}
+  {% assign entry_tag = "details" %}
+  {% assign header_tag = "summary" %}
+{% else %}
+  {% assign entry_tag = "div" %}
+  {% assign header_tag = "div" %}
+{% endif %}
+<{{ entry_tag }} class="resume-entry"{% if entry_tag == "details" and include.open %} open{% endif %}>
+  <{{ header_tag }} class="resume-entry-header">
     <div class="resume-entry-title">
       <strong class="resume-company">{{ include.company }}</strong>
       <span class="resume-role">{{ include.role }}</span>
@@ -7,16 +15,17 @@
 
     <span class="resume-entry-meta">
       {% if include.period %}<span class="resume-period">{{ include.period }}</span>{% endif %}
-      <span class="resume-toggle-icon" aria-hidden="true"></span>
+      {% if entry_tag == "details" %}<span class="resume-toggle-icon" aria-hidden="true"></span>{% endif %}
     </span>
-  </summary>
+  </{{ header_tag }}>
 
-  {% if include.bullets %}
+  {% if entry_tag == "details" %}
     <ul class="resume-bullets">
       {% assign bullet_list = include.bullets | split: "|" %}
       {% for bullet in bullet_list %}
-        <li>{{ bullet | strip }}</li>
+        {% assign trimmed_bullet = bullet | strip %}
+        {% if trimmed_bullet != empty %}<li>{{ trimmed_bullet }}</li>{% endif %}
       {% endfor %}
     </ul>
   {% endif %}
-</details>
+</{{ entry_tag }}>
