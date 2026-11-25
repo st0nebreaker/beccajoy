@@ -11,11 +11,6 @@ cover: false
 <p class="resume-instruction">Click any role to expand details.</p>
 
 <div class="resume-section" markdown="1">
-<!-- VE: bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across 6+ core product journeys.|Build front end prototypes and production interfaces in React/TypeScript across 10+ product features, including component architecture, interaction states, and responsive UI.|Use AI tools and agent-based workflows for product discovery, scoping requirements, design exploration, prototyping, research, documentation, and development.|Partner with product and engineering to define requirements, resolve UX ambiguity, scope work, and coordinate delivery across 5+ stakeholders." -->
-<!-- TF: bullets="Led product strategy, UX design, and delivery for an outdoor stewardship technology startup across 15+ product initiatives.|Designed product experiences and translated stakeholder needs into prioritized feature work and user flows.|Managed roadmap, backlog, project boards, documentation, and Agile processes across a 5+ person team.|Used AI tools and agent-based workflows for ideation, research, requirements, planning, documentation, and operations." -->
-<!-- SG: bullets="Designed and implemented 20+ user flows and interfaces for developer-tool and administrative features using React/TypeScript.|Improved accessibility and usability through WCAG 2.1 audits and front end remediation across multiple product surfaces.|Built and debugged end-user workflows spanning Git integrations, batch changes, and administrative tooling." -->
-<!-- Slalom: bullets="Designed and implemented 10+ responsive workflows, creating reusable UI components, for a multi-client applicant portal using Vue/TypeScript.|Designed and developed localized calendar and scheduling experiences alongside product and executive stakeholders.|Expanded front end testing and documentation, contributing to a 13% reduction in user-facing bugs." -->
-<!-- BR: bullets="Designed and implemented user flows and responsive interfaces for React and Vue client projects.|Translated customer and product requirements into UX flows and front end solutions across 5+ client implementations.|Refactored legacy front end code and resolved production UI issues, improving reliability and consistency." -->
 
 
 ### Software + Product
@@ -26,14 +21,14 @@ cover: false
    role="Design Engineer + Project Manager"
    period="Dec 2025 – Present"
    open=true
-   bullets="Design high-fidelity interfaces, interaction patterns, and end-to-end user flows in Figma across the mobile app, company website, and chamber software.|Build frontend prototypes and production interfaces in React/TypeScript, including reusable components, interaction states, and responsive layouts.|Simplify complex chamber controls through clearer information architecture and consistent interface patterns.|Apply AI tools and agent-based workflows across research, design exploration, prototyping, documentation, and development; contribute to product strategy through discovery and planning.|Lead project planning and delivery with product and engineering, refining requirements, task definitions, feature priorities, and scope."
+   bullets="Build frontend prototypes and production interfaces in React/TypeScript, using reusable components, interaction states, and responsive layouts for 10 features. |Simplify complex chamber controls through information architecture and consistent interface patterns. |Apply agent-based workflows across discovery, research, design exploration, prototyping, and development. |Lead project planning and delivery with product and engineering, refining requirements, task definitions, feature priorities, and scope."
 %}
 
 {% include resume-entry.html
    company="TrailFunds"
    role="Product Manager"
    period="Nov 2025 – Aug 2026"
-   bullets="Shaped product strategy, UX design, and delivery for an outdoor stewardship technology startup.|Translated stakeholder needs into user flows and prioritized features.|Managed roadmaps, backlogs, project boards, documentation, and Agile processes across a cross-functional team.|Used AI tools and agent-based workflows for research, requirements, planning, documentation, and operations."
+   bullets="Shaped product strategy, UX design, and delivery for a stewardship technology startup. |Translated stakeholder needs into user flows, scoping and prioritizing 15 product features. |Managed roadmaps, backlogs, and project boards across a lean, cross-functional Agile team."
 %}
 
 {% include resume-entry.html
@@ -45,22 +40,21 @@ cover: false
    company="Sourcegraph"
    role="Front End Engineer"
    period="Mar 2022 – Sep 2023"
-   bullets="Partnered with design and engineering to complete and implement developer-tool and administrative interfaces using React/TypeScript.|Improved accessibility and usability through WCAG 2.1 audits and frontend remediation.|Built and debugged workflows spanning Git integrations, batch changes, and administrative tooling."
+   bullets="Partnered with design and engineering to complete and implement a developer-tool platform and administrative portal interface using React/TypeScript. |Improved accessibility and usability through WCAG 2.1 audits and frontend remediation. |Built and debugged workflows spanning Git integrations, batch changes, and administrative tooling."
 %}
 
 {% include resume-entry.html
    company="Slalom"
    role="Design Engineer"
    period="Aug 2021 – Mar 2022"
-   bullets="Designed and built responsive workflows and reusable Vue/TypeScript components for a multi-client applicant portal.|Developed localized calendar and scheduling experiences alongside product and executive stakeholders.|Expanded frontend testing and documentation, contributing to a 13% reduction in user-facing bugs."
-
+   bullets="Designed and built responsive workflows and reusable Vue/TypeScript components for a multi-client applicant portal. |Developed calendar and scheduling features alongside product and executive stakeholders. |Expanded frontend testing and documentation, contributing to a 13% reduction in user-facing bugs."
 %}
 
 {% include resume-entry.html
    company="Blue Ridge Digital — Tuition.io"
    role="UX Engineer + Project Lead"
    period="Aug 2020 – Aug 2021"
-   bullets="Designed and implemented user flows and responsive interfaces for React and Vue client projects.|Translated customer and product requirements into UX flows and frontend solutions.|Refactored legacy frontend code and resolved production UI issues, improving reliability and consistency.|Contributed to project management through requirements definition, task delegation, planning, and delivery tracking."
+   bullets="Designed and implemented user flows and responsive interfaces for React and Vue client projects. |Translated customer and product requirements into thoughtful frontend solutions with UX flows. |Refactored legacy frontend code and resolved production UI issues, improving reliability and consistency. |Contributed to project management through requirements definition, task delegation, planning, and delivery tracking."
 %}
 
 
