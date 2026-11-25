@@ -47,7 +47,7 @@ cover: false
    company="Slalom"
    role="Design Engineer"
    period="Aug 2021 – Mar 2022"
-   bullets="Designed and built responsive workflows and reusable Vue/TypeScript components for a multi-client applicant portal. |Developed calendar and scheduling features alongside product and executive stakeholders. |Expanded frontend testing and documentation, contributing to a 13% reduction in user-facing bugs."
+   bullets="Designed and built responsive workflows with reusable Vue/TypeScript components for a multi-client applicant tracking system and portal. |Developed localized calendar and scheduling features, supporting internationalization (i18n) and localization (l10n), alongside product and executive stakeholders. |Expanded frontend testing and documentation, contributing to a 13% reduction in user-facing bugs."
 %}
 
 {% include resume-entry.html
